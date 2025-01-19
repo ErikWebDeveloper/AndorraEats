@@ -1,0 +1,212 @@
+[
+  {
+    "id": "1",
+    "name": "Restaurante El Sabor Especial",
+    "rating": 4.8,
+    "user_ratings_total": 325,
+    "location": {
+      "lat": 40.416775,
+      "lng": -3.70379
+    },
+    "country": "Andorra la Vella",
+    "type": "🍕 Pizza",
+    "price": 1,
+    "image": "/1.jpg",
+    "features": [
+      "🐾 Aceptan animales",
+      "📶 Wi-Fi gratuito",
+      "🏙️ Céntrico",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🅿️ Parking"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "La Cocina Mediterránea",
+    "rating": 4.5,
+    "user_ratings_total": 204,
+    "location": {
+      "lat": 40.4172,
+      "lng": -3.70416
+    },
+    "country": "Escaldes-Engordany",
+    "type": "🌍 Mediterráneo",
+    "price": 2,
+    "image": "/2.jpg",
+    "features": [
+      "♿ Acceso personas con discapacidad",
+      "📶 Wi-Fi gratuito",
+      "🥗 Especialidad en ensaladas",
+      "🌞 Zona al aire libre",
+      "🎶 Música en vivo"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Restaurante El Buen Kebab",
+    "rating": 4.2,
+    "user_ratings_total": 98,
+    "location": {
+      "lat": 40.4189,
+      "lng": -3.7058
+    },
+    "country": "Sant Julià de Lòria",
+    "type": "🥙 Kebab",
+    "price": 3,
+    "image": "/3.jpg",
+    "features": [
+      "🛵 Servicio a domicilio",
+      "🛋️ Salones Privados",
+      "🎉 Banquetes",
+      "🌳 Terraza/Jardín",
+      "🚚 Entrega a domicilio"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Café Nueva York",
+    "rating": 4.7,
+    "user_ratings_total": 150,
+    "location": {
+      "lat": 40.41915,
+      "lng": -3.7062
+    },
+    "country": "Ordino",
+    "type": "🍔 New Yorkina",
+    "price": 2,
+    "image": "/4.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🌅 Vista panorámica",
+      "🌞 Zona al aire libre",
+      "💳 Tarjetas de crédito",
+      "🥗 Especialidad en ensaladas"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "La Casa del Marisco",
+    "rating": 4.3,
+    "user_ratings_total": 270,
+    "location": {
+      "lat": 40.417,
+      "lng": -3.7025
+    },
+    "country": "La Massana",
+    "type": "🦞 Mariscos",
+    "price": 4,
+    "image": "/5.jpg",
+    "features": [
+      "🅿️ Parking",
+      "🌳 Terraza/Jardín",
+      "🎉 Banquetes",
+      "🚚 Entrega a domicilio",
+      "🐾 Aceptan animales"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Pizzería La Dolce Vita",
+    "rating": 4.6,
+    "user_ratings_total": 180,
+    "location": {
+      "lat": 40.415,
+      "lng": -3.707
+    },
+    "country": "Andorra la Vella",
+    "type": "🍕 Pizza",
+    "price": 1,
+    "image": "/6.jpg",
+    "features": [
+      "🐾 Aceptan animales",
+      "🌳 Terraza/Jardín",
+      "📶 Wi-Fi gratuito",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "💳 Tarjetas de crédito"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Restaurante El Buen Gusto",
+    "rating": 4.4,
+    "user_ratings_total": 210,
+    "location": {
+      "lat": 40.4177,
+      "lng": -3.7011
+    },
+    "country": "Escaldes-Engordany",
+    "type": "🍝 Italiano",
+    "price": 2,
+    "image": "/7.jpg",
+    "features": [
+      "♿ Acceso personas con discapacidad",
+      "🌞 Zona al aire libre",
+      "📶 Wi-Fi gratuito",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🥗 Especialidad en ensaladas"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Taco Loco",
+    "rating": 4.0,
+    "user_ratings_total": 100,
+    "location": {
+      "lat": 40.419,
+      "lng": -3.7055
+    },
+    "country": "La Massana",
+    "type": "🌮 Mexicano",
+    "price": 2,
+    "image": "/8.jpg",
+    "features": [
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🌳 Terraza/Jardín",
+      "🛵 Servicio a domicilio",
+      "🌞 Zona al aire libre",
+      "🎶 Música en vivo"
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Sushi Master",
+    "rating": 4.9,
+    "user_ratings_total": 300,
+    "location": {
+      "lat": 40.4163,
+      "lng": -3.7049
+    },
+    "country": "Ordino",
+    "type": "🍣 Japonés",
+    "price": 3,
+    "image": "/9.jpg",
+    "features": [
+      "🐾 Aceptan animales",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "📶 Wi-Fi gratuito",
+      "🌞 Zona al aire libre",
+      "💳 Tarjetas de crédito"
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Café & Tapas La Solana",
+    "rating": 4.0,
+    "user_ratings_total": 180,
+    "location": {
+      "lat": 40.4169,
+      "lng": -3.708
+    },
+    "country": "Ordino",
+    "type": "🍽️ Francesa",
+    "price": 2,
+    "image": "/23.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🥗 Especialidad en ensaladas",
+      "🌳 Terraza/Jardín",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🎶 Música en vivo"
+    ]
+  }
+]

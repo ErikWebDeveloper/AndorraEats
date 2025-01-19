@@ -1,0 +1,8 @@
+# Archivo robots.txt para Andorra Eats
+
+# Permitir el acceso a todos los motores de búsqueda
+User-agent: *
+Disallow:
+
+# Sitemap
+Sitemap: https://www.andorraeats.com/sitemap.xml

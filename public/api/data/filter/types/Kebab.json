@@ -1,0 +1,23 @@
+[
+  {
+    "id": "3",
+    "name": "Restaurante El Buen Kebab",
+    "rating": 4.2,
+    "user_ratings_total": 98,
+    "location": {
+      "lat": 40.4189,
+      "lng": -3.7058
+    },
+    "country": "Sant Julià de Lòria",
+    "type": "🥙 Kebab",
+    "price": 3,
+    "image": "/3.jpg",
+    "features": [
+      "🛵 Servicio a domicilio",
+      "🛋️ Salones Privados",
+      "🎉 Banquetes",
+      "🌳 Terraza/Jardín",
+      "🚚 Entrega a domicilio"
+    ]
+  }
+]

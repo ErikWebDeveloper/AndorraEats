@@ -1,0 +1,23 @@
+[
+  {
+    "id": "18",
+    "name": "La Casa de las Carnes",
+    "rating": 4.8,
+    "user_ratings_total": 330,
+    "location": {
+      "lat": 40.4193,
+      "lng": -3.7075
+    },
+    "country": "Sant Julià de Lòria",
+    "type": "🥩 Carnes",
+    "price": 4,
+    "image": "/18.jpg",
+    "features": [
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🛵 Servicio a domicilio",
+      "🌳 Terraza/Jardín",
+      "💳 Tarjetas de crédito",
+      "🎉 Banquetes"
+    ]
+  }
+]

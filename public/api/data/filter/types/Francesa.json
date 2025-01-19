@@ -1,0 +1,23 @@
+[
+  {
+    "id": "23",
+    "name": "Café & Tapas La Solana",
+    "rating": 4,
+    "user_ratings_total": 180,
+    "location": {
+      "lat": 40.4169,
+      "lng": -3.708
+    },
+    "country": "Ordino",
+    "type": "🍽️ Francesa",
+    "price": 2,
+    "image": "/23.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🥗 Especialidad en ensaladas",
+      "🌳 Terraza/Jardín",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🎶 Música en vivo"
+    ]
+  }
+]

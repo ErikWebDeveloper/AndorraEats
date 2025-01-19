@@ -1,0 +1,107 @@
+[
+  {
+    "id": "20",
+    "name": "Pastelería & Café La Dulce Vida",
+    "rating": 4.5,
+    "user_ratings_total": 210,
+    "location": {
+      "lat": 40.4176,
+      "lng": -3.7077
+    },
+    "country": "Escaldes-Engordany",
+    "type": "🍩 Pastelería",
+    "price": 1,
+    "image": "/20.jpg",
+    "features": [
+      "🐾 Aceptan animales",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🖥️ Reservas online",
+      "🌳 Terraza/Jardín",
+      "🍦 Heladería"
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Heladería El Paraíso",
+    "rating": 4.9,
+    "user_ratings_total": 190,
+    "location": {
+      "lat": 40.4178,
+      "lng": -3.7078
+    },
+    "country": "Andorra la Vella",
+    "type": "🍦 Heladería",
+    "price": 1,
+    "image": "/21.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🌳 Terraza/Jardín",
+      "🍩 Pastelería",
+      "🌞 Zona al aire libre"
+    ]
+  },
+  {
+    "id": "22",
+    "name": "La Casa de la Parrilla",
+    "rating": 4.3,
+    "user_ratings_total": 230,
+    "location": {
+      "lat": 40.418,
+      "lng": -3.7079
+    },
+    "country": "Sant Julià de Lòria",
+    "type": "🍖 Parrilla",
+    "price": 3,
+    "image": "/22.jpg",
+    "features": [
+      "🛋️ Salones Privados",
+      "💳 Tarjetas de crédito",
+      "🌞 Zona al aire libre",
+      "🎉 Banquetes",
+      "🍽️ Protocolo contra el desperdicio de alimentos"
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Café & Tapas La Solana",
+    "rating": 4.0,
+    "user_ratings_total": 180,
+    "location": {
+      "lat": 40.4169,
+      "lng": -3.708
+    },
+    "country": "Ordino",
+    "type": "🍽️ Francesa",
+    "price": 2,
+    "image": "/23.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🥗 Especialidad en ensaladas",
+      "🌳 Terraza/Jardín",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🎶 Música en vivo"
+    ]
+  },
+  {
+    "id": "24",
+    "name": "El Tenedor del Chef",
+    "rating": 4.7,
+    "user_ratings_total": 300,
+    "location": {
+      "lat": 40.4179,
+      "lng": -3.7081
+    },
+    "country": "La Massana",
+    "type": "🍽️ De Autor",
+    "price": 3,
+    "image": "/24.jpg",
+    "features": [
+      "🅿️ Parking",
+      "🧑‍💻 Espacio coworking",
+      "🎶 Música en vivo",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🛋️ Salones Privados"
+    ]
+  }
+]

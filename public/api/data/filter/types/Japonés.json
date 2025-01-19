@@ -1,0 +1,44 @@
+[
+  {
+    "id": "9",
+    "name": "Sushi Master",
+    "rating": 4.9,
+    "user_ratings_total": 300,
+    "location": {
+      "lat": 40.4163,
+      "lng": -3.7049
+    },
+    "country": "Ordino",
+    "type": "🍣 Japonés",
+    "price": 3,
+    "image": "/9.jpg",
+    "features": [
+      "🐾 Aceptan animales",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "📶 Wi-Fi gratuito",
+      "🌞 Zona al aire libre",
+      "💳 Tarjetas de crédito"
+    ]
+  },
+  {
+    "id": "25",
+    "name": "La Estación del Sushi",
+    "rating": 4.4,
+    "user_ratings_total": 210,
+    "location": {
+      "lat": 40.4183,
+      "lng": -3.7082
+    },
+    "country": "Escaldes-Engordany",
+    "type": "🍣 Japonés",
+    "price": 3,
+    "image": "/25.jpg",
+    "features": [
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🌞 Zona al aire libre",
+      "🖥️ Reservas online",
+      "🐾 Aceptan animales",
+      "📶 Wi-Fi gratuito"
+    ]
+  }
+]

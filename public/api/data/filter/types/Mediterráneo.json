@@ -1,0 +1,44 @@
+[
+  {
+    "id": "2",
+    "name": "La Cocina Mediterránea",
+    "rating": 4.5,
+    "user_ratings_total": 204,
+    "location": {
+      "lat": 40.4172,
+      "lng": -3.70416
+    },
+    "country": "Escaldes-Engordany",
+    "type": "🌍 Mediterráneo",
+    "price": 2,
+    "image": "/2.jpg",
+    "features": [
+      "♿ Acceso personas con discapacidad",
+      "📶 Wi-Fi gratuito",
+      "🥗 Especialidad en ensaladas",
+      "🌞 Zona al aire libre",
+      "🎶 Música en vivo"
+    ]
+  },
+  {
+    "id": "14",
+    "name": "La Fonda del Chef",
+    "rating": 4.5,
+    "user_ratings_total": 140,
+    "location": {
+      "lat": 40.4175,
+      "lng": -3.7028
+    },
+    "country": "Sant Julià de Lòria",
+    "type": "🍲 Mediterráneo",
+    "price": 3,
+    "image": "/14.jpg",
+    "features": [
+      "♿ Acceso personas con discapacidad",
+      "📶 Wi-Fi gratuito",
+      "🌞 Zona al aire libre",
+      "🎉 Banquetes",
+      "💳 Tarjetas de crédito"
+    ]
+  }
+]

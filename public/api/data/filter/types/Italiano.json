@@ -1,0 +1,65 @@
+[
+  {
+    "id": "7",
+    "name": "Restaurante El Buen Gusto",
+    "rating": 4.4,
+    "user_ratings_total": 210,
+    "location": {
+      "lat": 40.4177,
+      "lng": -3.7011
+    },
+    "country": "Escaldes-Engordany",
+    "type": "🍝 Italiano",
+    "price": 2,
+    "image": "/7.jpg",
+    "features": [
+      "♿ Acceso personas con discapacidad",
+      "🌞 Zona al aire libre",
+      "📶 Wi-Fi gratuito",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🥗 Especialidad en ensaladas"
+    ]
+  },
+  {
+    "id": "27",
+    "name": "El Restaurante de los Amigos",
+    "rating": 4.2,
+    "user_ratings_total": 160,
+    "location": {
+      "lat": 40.4171,
+      "lng": -3.7084
+    },
+    "country": "Sant Julià de Lòria",
+    "type": "🍝 Italiano",
+    "price": 2,
+    "image": "/27.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🌳 Terraza/Jardín",
+      "🎶 Música en vivo",
+      "💳 Tarjetas de crédito",
+      "🥗 Especialidad en ensaladas"
+    ]
+  },
+  {
+    "id": "30",
+    "name": "Pasta & Co.",
+    "rating": 4.7,
+    "user_ratings_total": 300,
+    "location": {
+      "lat": 40.4196,
+      "lng": -3.7087
+    },
+    "country": "Andorra la Vella",
+    "type": "🍝 Italiano",
+    "price": 2,
+    "image": "/30.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🎉 Banquetes",
+      "🌳 Terraza/Jardín",
+      "💳 Tarjetas de crédito",
+      "🍽️ Protocolo contra el desperdicio de alimentos"
+    ]
+  }
+]

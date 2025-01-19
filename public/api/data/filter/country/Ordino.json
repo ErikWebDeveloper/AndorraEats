@@ -1,0 +1,86 @@
+[
+  {
+    "id": "4",
+    "name": "Café Nueva York",
+    "rating": 4.7,
+    "user_ratings_total": 150,
+    "location": {
+      "lat": 40.41915,
+      "lng": -3.7062
+    },
+    "country": "Ordino",
+    "type": "🍔 New Yorkina",
+    "price": 2,
+    "image": "/4.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🌅 Vista panorámica",
+      "🌞 Zona al aire libre",
+      "💳 Tarjetas de crédito",
+      "🥗 Especialidad en ensaladas"
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Sushi Master",
+    "rating": 4.9,
+    "user_ratings_total": 300,
+    "location": {
+      "lat": 40.4163,
+      "lng": -3.7049
+    },
+    "country": "Ordino",
+    "type": "🍣 Japonés",
+    "price": 3,
+    "image": "/9.jpg",
+    "features": [
+      "🐾 Aceptan animales",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "📶 Wi-Fi gratuito",
+      "🌞 Zona al aire libre",
+      "💳 Tarjetas de crédito"
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Café del Mar",
+    "rating": 4.2,
+    "user_ratings_total": 180,
+    "location": {
+      "lat": 40.4182,
+      "lng": -3.7067
+    },
+    "country": "Ordino",
+    "type": "🍷 Vinacoteca",
+    "price": 3,
+    "image": "/15.jpg",
+    "features": [
+      "🧑‍💻 Espacio coworking",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🛋️ Salones Privados",
+      "🎶 Música en vivo",
+      "💳 Tarjetas de crédito"
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Café & Tapas La Solana",
+    "rating": 4,
+    "user_ratings_total": 180,
+    "location": {
+      "lat": 40.4169,
+      "lng": -3.708
+    },
+    "country": "Ordino",
+    "type": "🍽️ Francesa",
+    "price": 2,
+    "image": "/23.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🥗 Especialidad en ensaladas",
+      "🌳 Terraza/Jardín",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🎶 Música en vivo"
+    ]
+  }
+]

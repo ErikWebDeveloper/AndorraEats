@@ -1,0 +1,23 @@
+[
+  {
+    "id": "16",
+    "name": "Ramen Master",
+    "rating": 4.7,
+    "user_ratings_total": 250,
+    "location": {
+      "lat": 40.4191,
+      "lng": -3.7073
+    },
+    "country": "Escaldes-Engordany",
+    "type": "🍲 Asiático",
+    "price": 2,
+    "image": "/16.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🛋️ Salones Privados",
+      "🥗 Especialidad en ensaladas",
+      "🌞 Zona al aire libre",
+      "🍽️ Protocolo contra el desperdicio de alimentos"
+    ]
+  }
+]
