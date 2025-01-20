@@ -2,12 +2,11 @@
   {
     "id": "1",
     "name": "Restaurante El Sabor Especial",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.8,
     "user_ratings_total": 325,
-    "location": {
-      "lat": 40.416775,
-      "lng": -3.70379
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Andorra la Vella",
     "type": "🍕 Pizza",
     "price": 1,
@@ -18,17 +17,30 @@
       "🏙️ Céntrico",
       "🍽️ Protocolo contra el desperdicio de alimentos",
       "🅿️ Parking"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "2",
     "name": "La Cocina Mediterránea",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.5,
     "user_ratings_total": 204,
-    "location": {
-      "lat": 40.4172,
-      "lng": -3.70416
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Escaldes-Engordany",
     "type": "🌍 Mediterráneo",
     "price": 2,
@@ -39,17 +51,30 @@
       "🥗 Especialidad en ensaladas",
       "🌞 Zona al aire libre",
       "🎶 Música en vivo"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "3",
     "name": "Restaurante El Buen Kebab",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.2,
     "user_ratings_total": 98,
-    "location": {
-      "lat": 40.4189,
-      "lng": -3.7058
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Sant Julià de Lòria",
     "type": "🥙 Kebab",
     "price": 3,
@@ -60,17 +85,30 @@
       "🎉 Banquetes",
       "🌳 Terraza/Jardín",
       "🚚 Entrega a domicilio"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "4",
     "name": "Café Nueva York",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.7,
     "user_ratings_total": 150,
-    "location": {
-      "lat": 40.41915,
-      "lng": -3.7062
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Ordino",
     "type": "🍔 New Yorkina",
     "price": 2,
@@ -81,17 +119,30 @@
       "🌞 Zona al aire libre",
       "💳 Tarjetas de crédito",
       "🥗 Especialidad en ensaladas"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "5",
     "name": "La Casa del Marisco",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.3,
     "user_ratings_total": 270,
-    "location": {
-      "lat": 40.417,
-      "lng": -3.7025
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "La Massana",
     "type": "🦞 Mariscos",
     "price": 4,
@@ -102,17 +153,30 @@
       "🎉 Banquetes",
       "🚚 Entrega a domicilio",
       "🐾 Aceptan animales"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "6",
     "name": "Pizzería La Dolce Vita",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.6,
     "user_ratings_total": 180,
-    "location": {
-      "lat": 40.415,
-      "lng": -3.707
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Andorra la Vella",
     "type": "🍕 Pizza",
     "price": 1,
@@ -123,17 +187,30 @@
       "📶 Wi-Fi gratuito",
       "🍽️ Protocolo contra el desperdicio de alimentos",
       "💳 Tarjetas de crédito"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "7",
     "name": "Restaurante El Buen Gusto",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.4,
     "user_ratings_total": 210,
-    "location": {
-      "lat": 40.4177,
-      "lng": -3.7011
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Escaldes-Engordany",
     "type": "🍝 Italiano",
     "price": 2,
@@ -144,17 +221,30 @@
       "📶 Wi-Fi gratuito",
       "🍽️ Protocolo contra el desperdicio de alimentos",
       "🥗 Especialidad en ensaladas"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "8",
     "name": "Taco Loco",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.0,
     "user_ratings_total": 100,
-    "location": {
-      "lat": 40.419,
-      "lng": -3.7055
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "La Massana",
     "type": "🌮 Mexicano",
     "price": 2,
@@ -165,17 +255,30 @@
       "🛵 Servicio a domicilio",
       "🌞 Zona al aire libre",
       "🎶 Música en vivo"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "9",
     "name": "Sushi Master",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.9,
     "user_ratings_total": 300,
-    "location": {
-      "lat": 40.4163,
-      "lng": -3.7049
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Ordino",
     "type": "🍣 Japonés",
     "price": 3,
@@ -186,17 +289,30 @@
       "📶 Wi-Fi gratuito",
       "🌞 Zona al aire libre",
       "💳 Tarjetas de crédito"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "10",
     "name": "La Parrilla Andorrana",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.6,
     "user_ratings_total": 175,
-    "location": {
-      "lat": 40.4178,
-      "lng": -3.7029
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Sant Julià de Lòria",
     "type": "🍖 Parrilla",
     "price": 3,
@@ -207,17 +323,30 @@
       "🎉 Banquetes",
       "🍽️ Protocolo contra el desperdicio de alimentos",
       "🍜 Recogida en el local"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "11",
     "name": "Burguer & Co.",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.3,
     "user_ratings_total": 220,
-    "location": {
-      "lat": 40.4181,
-      "lng": -3.7035
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Andorra la Vella",
     "type": "🍔 Burger",
     "price": 2,
@@ -228,17 +357,30 @@
       "💳 Tarjetas de crédito",
       "🥗 Especialidad en ensaladas",
       "🛋️ Salones Privados"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "12",
     "name": "Café El Rincón",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.0,
     "user_ratings_total": 150,
-    "location": {
-      "lat": 40.4168,
-      "lng": -3.7054
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Escaldes-Engordany",
     "type": "🍽️ De Autor",
     "price": 2,
@@ -249,17 +391,30 @@
       "🎶 Música en vivo",
       "🍽️ Protocolo contra el desperdicio de alimentos",
       "💳 Tarjetas de crédito"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "13",
     "name": "Tienda de Pescados y Mariscos",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.8,
     "user_ratings_total": 320,
-    "location": {
-      "lat": 40.4166,
-      "lng": -3.7072
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "La Massana",
     "type": "🍤 Mariscos",
     "price": 4,
@@ -270,17 +425,30 @@
       "🛵 Servicio a domicilio",
       "📶 Wi-Fi gratuito",
       "🐾 Aceptan animales"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "14",
     "name": "La Fonda del Chef",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.5,
     "user_ratings_total": 140,
-    "location": {
-      "lat": 40.4175,
-      "lng": -3.7028
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Sant Julià de Lòria",
     "type": "🍲 Mediterráneo",
     "price": 3,
@@ -291,17 +459,30 @@
       "🌞 Zona al aire libre",
       "🎉 Banquetes",
       "💳 Tarjetas de crédito"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "15",
     "name": "Café del Mar",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.2,
     "user_ratings_total": 180,
-    "location": {
-      "lat": 40.4182,
-      "lng": -3.7067
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Ordino",
     "type": "🍷 Vinacoteca",
     "price": 3,
@@ -312,17 +493,30 @@
       "🛋️ Salones Privados",
       "🎶 Música en vivo",
       "💳 Tarjetas de crédito"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "16",
     "name": "Ramen Master",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.7,
     "user_ratings_total": 250,
-    "location": {
-      "lat": 40.4191,
-      "lng": -3.7073
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Escaldes-Engordany",
     "type": "🍲 Asiático",
     "price": 2,
@@ -333,17 +527,30 @@
       "🥗 Especialidad en ensaladas",
       "🌞 Zona al aire libre",
       "🍽️ Protocolo contra el desperdicio de alimentos"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "17",
     "name": "La Pizzería de la Plaza",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.1,
     "user_ratings_total": 190,
-    "location": {
-      "lat": 40.4173,
-      "lng": -3.7074
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Andorra la Vella",
     "type": "🍕 Pizza",
     "price": 1,
@@ -354,17 +561,30 @@
       "🌅 Vista panorámica",
       "💳 Tarjetas de crédito",
       "🥗 Especialidad en ensaladas"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "18",
     "name": "La Casa de las Carnes",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.8,
     "user_ratings_total": 330,
-    "location": {
-      "lat": 40.4193,
-      "lng": -3.7075
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Sant Julià de Lòria",
     "type": "🥩 Carnes",
     "price": 4,
@@ -375,17 +595,30 @@
       "🌳 Terraza/Jardín",
       "💳 Tarjetas de crédito",
       "🎉 Banquetes"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "19",
     "name": "Mexican Grill",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.4,
     "user_ratings_total": 200,
-    "location": {
-      "lat": 40.4174,
-      "lng": -3.7076
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "La Massana",
     "type": "🌮 Mexicano",
     "price": 2,
@@ -396,17 +629,30 @@
       "🎉 Banquetes",
       "🐾 Aceptan animales",
       "🍽️ Protocolo contra el desperdicio de alimentos"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "20",
     "name": "Pastelería & Café La Dulce Vida",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.5,
     "user_ratings_total": 210,
-    "location": {
-      "lat": 40.4176,
-      "lng": -3.7077
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Escaldes-Engordany",
     "type": "🍩 Pastelería",
     "price": 1,
@@ -417,17 +663,30 @@
       "🖥️ Reservas online",
       "🌳 Terraza/Jardín",
       "🍦 Heladería"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "21",
     "name": "Heladería El Paraíso",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.9,
     "user_ratings_total": 190,
-    "location": {
-      "lat": 40.4178,
-      "lng": -3.7078
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Andorra la Vella",
     "type": "🍦 Heladería",
     "price": 1,
@@ -438,17 +697,30 @@
       "🌳 Terraza/Jardín",
       "🍩 Pastelería",
       "🌞 Zona al aire libre"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "22",
     "name": "La Casa de la Parrilla",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.3,
     "user_ratings_total": 230,
-    "location": {
-      "lat": 40.418,
-      "lng": -3.7079
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Sant Julià de Lòria",
     "type": "🍖 Parrilla",
     "price": 3,
@@ -459,17 +731,30 @@
       "🌞 Zona al aire libre",
       "🎉 Banquetes",
       "🍽️ Protocolo contra el desperdicio de alimentos"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "23",
     "name": "Café & Tapas La Solana",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.0,
     "user_ratings_total": 180,
-    "location": {
-      "lat": 40.4169,
-      "lng": -3.708
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Ordino",
     "type": "🍽️ Francesa",
     "price": 2,
@@ -480,17 +765,30 @@
       "🌳 Terraza/Jardín",
       "🍽️ Protocolo contra el desperdicio de alimentos",
       "🎶 Música en vivo"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "24",
     "name": "El Tenedor del Chef",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.7,
     "user_ratings_total": 300,
-    "location": {
-      "lat": 40.4179,
-      "lng": -3.7081
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "La Massana",
     "type": "🍽️ De Autor",
     "price": 3,
@@ -501,17 +799,30 @@
       "🎶 Música en vivo",
       "🍽️ Protocolo contra el desperdicio de alimentos",
       "🛋️ Salones Privados"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "25",
     "name": "La Estación del Sushi",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.4,
     "user_ratings_total": 210,
-    "location": {
-      "lat": 40.4183,
-      "lng": -3.7082
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Escaldes-Engordany",
     "type": "🍣 Japonés",
     "price": 3,
@@ -522,17 +833,30 @@
       "🖥️ Reservas online",
       "🐾 Aceptan animales",
       "📶 Wi-Fi gratuito"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "26",
     "name": "Burgers & Friends",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.6,
     "user_ratings_total": 290,
-    "location": {
-      "lat": 40.4194,
-      "lng": -3.7083
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Andorra la Vella",
     "type": "🍔 Burger",
     "price": 2,
@@ -543,17 +867,30 @@
       "🎉 Banquetes",
       "📶 Wi-Fi gratuito",
       "🥗 Especialidad en ensaladas"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "27",
     "name": "El Restaurante de los Amigos",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.2,
     "user_ratings_total": 160,
-    "location": {
-      "lat": 40.4171,
-      "lng": -3.7084
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Sant Julià de Lòria",
     "type": "🍝 Italiano",
     "price": 2,
@@ -564,17 +901,30 @@
       "🎶 Música en vivo",
       "💳 Tarjetas de crédito",
       "🥗 Especialidad en ensaladas"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "28",
     "name": "Taco Fiesta",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.1,
     "user_ratings_total": 150,
-    "location": {
-      "lat": 40.417,
-      "lng": -3.7085
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "La Massana",
     "type": "🌮 Mexicano",
     "price": 2,
@@ -585,17 +935,30 @@
       "🌳 Terraza/Jardín",
       "🎉 Banquetes",
       "🛵 Servicio a domicilio"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "29",
     "name": "Helados & Más",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.8,
     "user_ratings_total": 280,
-    "location": {
-      "lat": 40.4185,
-      "lng": -3.7086
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Escaldes-Engordany",
     "type": "🍦 Heladería",
     "price": 1,
@@ -606,17 +969,30 @@
       "🎶 Música en vivo",
       "🍽️ Protocolo contra el desperdicio de alimentos",
       "🖥️ Reservas online"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   },
   {
     "id": "30",
     "name": "Pasta & Co.",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde sed reiciendis eaque excepturi eveniet debitis, ipsum deleniti doloremque accusantium libero, inventore alias obcaecati voluptas animi. Sit aliquid distinctio pariatur?",
+    "link": "https://google.com",
     "rating": 4.7,
     "user_ratings_total": 300,
-    "location": {
-      "lat": 40.4196,
-      "lng": -3.7087
-    },
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
     "country": "Andorra la Vella",
     "type": "🍝 Italiano",
     "price": 2,
@@ -627,6 +1003,20 @@
       "🌳 Terraza/Jardín",
       "💳 Tarjetas de crédito",
       "🍽️ Protocolo contra el desperdicio de alimentos"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
     ]
   }
 ]

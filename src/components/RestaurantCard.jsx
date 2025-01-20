@@ -24,17 +24,35 @@ const Card = ({ restaurant }) => {
     <>
       <article className="container pt-3">
         {/** Titulo */}
-        <h1>{restaurant.name}</h1>
+        <h1 className="display-3 fw-bold">{restaurant.name}</h1>
+
         {/** Valoración */}
         <p style={{ color: "orange" }}>★★★☆☆ {restaurant.rating}</p>
         {/** Features */}
-        <p className="row">
-          <span className="col-4">
-            <span key={restaurant.type}>{restaurant.type} </span>
-          </span>
-          <span className="col-4 link">📍 {restaurant.country}</span>
-          {/*<span className="col-4">🪙 {restaurant.price}/per.</span>*/}
-        </p>
+        <div className="d-flex flex-wrap gap-2">
+          <p key={restaurant.type} className="me-3">
+            {restaurant.type}{" "}
+          </p>
+
+          <p className="badge text-bg-warning">📍 {restaurant.country}</p>
+        </div>
+        {/** Descripcón */}
+        <p>{restaurant.description}</p>
+        {/** Links */}
+        <div>
+          <a role="button" className="btn btn-sm btn-primary me-3" href={restaurant.link} target="_blank">
+            🔗 Ver enlace del sitio
+          </a>
+          <a
+            role="button"
+            className="btn btn-sm btn-warning"
+            href={restaurant.location}
+            target="_blank"
+          >
+            📍 Ver ubicación
+          </a>
+        </div>
+        <hr />
       </article>
     </>
   );

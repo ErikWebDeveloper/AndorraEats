@@ -38,7 +38,7 @@ const RestaurantCardSingle = ({ restaurant, cssClass = "" }) => {
           <span key={restaurant.type} className="flex-fill">
             {restaurant.type}{" "}
           </span>
-          <span className="badge text-bg-warning">📍 {restaurant.country}</span>
+          <p className="badge text-bg-warning">📍 {restaurant.country}</p>
         </div>
       </article>
     </>

@@ -5,7 +5,7 @@ import { useParams } from "react-router";
 import RestaurantCard from "../components/RestaurantCard";
 import Features from "../components/Features";
 import Recommended from "../components/Recommended";
-import Closer from "../components/Comments";
+import Footer from "../components/Footer";
 
 function RestaurantPage() {
   const [restaurant, setRestaurant] = useState([]);
@@ -53,7 +53,8 @@ function RestaurantPage() {
     <>
       <RestaurantCard restaurant={restaurant} />
       <Features restaurant={restaurant} />
-      {/*<Recommended restaurant={restaurant} />*/}
+      <Recommended restaurant={restaurant} />
+      <Footer />
     </>
   );
 }

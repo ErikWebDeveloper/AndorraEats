@@ -17,7 +17,7 @@ const Carousel = ({ products }) => {
                   className="d-block w-100"
                   alt="Fotografia del plato"
                 />
-                <div class="carousel-caption d-block bg-success">
+                <div className="carousel-caption d-block bg-success">
                   <h5>First slide label</h5>
                   <p>
                     Some representative placeholder content for the first slide.

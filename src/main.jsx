@@ -8,6 +8,7 @@ import { StaticDataProvider } from "./context/StaticDataContext";
 // Pages
 import LandingPage from "./pages/LandingPage";
 import ExplorePage from "./pages/ExplorePage";
+import SearchPage from "./pages/SearchPage";
 import ResultsTypePage from "./pages/ResultsTypePage";
 import RestaurantPage from "./pages/RestaurantPage";
 import ResultsCountryPage from "./pages/ResultsCountryPage";
@@ -21,6 +22,7 @@ createRoot(document.getElementById("root")).render(
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<LandingPage />} />
+          <Route path="/search" element={<SearchPage />} />
           <Route path="/explore" element={<ExplorePage />} />
           <Route path="/explore/type/:type" element={<ResultsTypePage />} />
           <Route
