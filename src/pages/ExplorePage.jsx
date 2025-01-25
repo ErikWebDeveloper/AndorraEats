@@ -1,136 +1,36 @@
 import { useEffect, useState } from "react";
 import { useNavigate, Link } from "react-router";
 import { SwiperSlide } from "swiper/react";
-
 // Hooks
 import { useStaticData } from "../context/StaticDataContext";
 // Components
-import Footer from "../components/Footer";
-import Logo from "../components/Logo";
 import {
   SwiperCarousel,
   CarouselInfinite,
   CarouselStatic,
 } from "../components/SwiperCarousel";
 import RestaurantCardSingle from "../components/RestaurantCardSingle";
+import { RestaurantCardSinglePlaceHolder } from "../components/RestaurantCardSingle";
 
 const ExplorePage = () => {
-  const navigate = useNavigate();
-  const [populars, setPopulars] = useState([]);
-  const [sponsors, setSponsors] = useState([]);
-
-  const [loading, setLoading] = useState(true);
-  const { countries, loading: loadingStaticData, types } = useStaticData(); // Hook para datos estáticos
-  const [error, setError] = useState(false);
-
-  const searchType = async (type) => {
-    navigate(`/explore/${type}`);
-  };
-
-  const fetchSponsors = async () => {
-    try {
-      const response = await fetch(`${import.meta.env.VITE_API_URL_SPONSORS}`);
-      if (!response.ok) {
-        throw new Error("Error al cargar el archivo JSON");
-      }
-      const data = await response.json();
-      setSponsors(data);
-    } catch (error) {
-      console.error("Error al obtener los datos:", error);
-    }
-  };
-
-  const fetchPopulars = async () => {
-    try {
-      const response = await fetch(`${import.meta.env.VITE_API_URL_POPULARS}`);
-      if (!response.ok) {
-        throw new Error("Error al cargar el archivo JSON");
-      }
-      const data = await response.json();
-      setPopulars(data);
-    } catch (error) {
-      console.error("Error al obtener los datos:", error);
-    }
-  };
-
-  // Carga inicial
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        setLoading(true);
-        await fetchSponsors();
-        await fetchPopulars();
-      } catch (error) {
-        console.error("Error durante la carga inicial:", error);
-        setError(true);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchData();
-  }, []);
-
-  if (loading || loadingStaticData) {
-    return <p>Cargando restaurante...</p>;
-  }
-
-  if (error) {
-    return <p>No se ha encntrado el contenido...</p>;
-  }
-
   return (
     <>
-      <Header restaurants={sponsors} />
-      <Types types={types} handleOnClick={searchType} />
-      <Countries countries={countries} />
-      <Popular restaurants={populars} />
-      <Footer />
+      <Hero />
+      <Types />
+      <Countries />
+      <Popular />
     </>
   );
 };
 
-const Navbar = () => {
+const Hero = () => {
+  const { sponsors, loading } = useStaticData();
   return (
     <>
-      <nav
-        className="container d-flex py-3 align-items-center"
-        //style={{ position: "sticky", top: "0px", backgroundColor: "orange" }}
-      >
-        <div className="flex-fill">
-          <Logo />
-        </div>
-        <div>
-          <Link
-            className="btn btn-light shadow-lg text-decoration-none py-3 rounded-5" 
-            role="button"
-            to={"/search"}
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              fill="rgb(96, 49, 0)"
-              className="bi bi-search"
-              viewBox="0 0 16 16"
-            >
-              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-            </svg>
-          </Link>
-        </div>
-      </nav>
-    </>
-  );
-};
-
-const Header = ({ restaurants }) => {
-  return (
-    <>
-      <header className="explore-header mb-4">
-        <Navbar />
+      <header className="explore-header mb-4 py-4">
         <section className="container">
           <h3
-            className="text-center"
+            className="text-center pb-3"
             style={{
               color: "var(--primary-color-brown",
               fontFamily: "gagalin-regular",
@@ -140,14 +40,26 @@ const Header = ({ restaurants }) => {
             ¡Descubre nuestros favoritos!
           </h3>
           <SwiperCarousel>
-            {restaurants.map((restaurant) => (
-              <SwiperSlide key={restaurant.id}>
-                <RestaurantCardSingle
-                  restaurant={restaurant}
-                  cssClass="border-0"
-                />
-              </SwiperSlide>
-            ))}
+            {loading ? (
+              <>
+                {Array.from({ length: 5 }).map((_, index) => (
+                  <SwiperSlide key={index}>
+                    <RestaurantCardSinglePlaceHolder />
+                  </SwiperSlide>
+                ))}
+              </>
+            ) : (
+              <>
+                {sponsors.map((restaurant) => (
+                  <SwiperSlide key={restaurant.id}>
+                    <RestaurantCardSingle
+                      restaurant={restaurant}
+                      cssClass="border-0"
+                    />
+                  </SwiperSlide>
+                ))}
+              </>
+            )}
           </SwiperCarousel>
         </section>
       </header>
@@ -155,22 +67,39 @@ const Header = ({ restaurants }) => {
   );
 };
 
-const Types = ({ types = [] }) => {
+const Types = () => {
+  const { types, loading } = useStaticData();
   return (
     <>
       <section className="container mb-5 pe-0">
         <h3 className="display-5 mb-3">¿Qué te apetece comer hoy?</h3>
         <CarouselInfinite>
-          {types.length > 0 &&
-            types.map((type) => (
-              <SwiperSlide
-                className="mb-3"
-                key={type.name}
-                style={{ minWidth: "8rem" }}
-              >
-                <TypeCard type={type} />
-              </SwiperSlide>
-            ))}
+          {!loading ? (
+            <>
+              {types.length > 0 &&
+                types.map((type) => (
+                  <SwiperSlide
+                    className="mb-3"
+                    key={type.name}
+                    style={{ minWidth: "8rem" }}
+                  >
+                    <TypeCard type={type} />
+                  </SwiperSlide>
+                ))}
+            </>
+          ) : (
+            <>
+              {Array.from({ length: 10 }).map((_, index) => (
+                <SwiperSlide
+                  className="mb-3"
+                  key={`types-${index}`}
+                  style={{ minWidth: "8rem" }}
+                >
+                  <TypeCardPlaceHolder />
+                </SwiperSlide>
+              ))}
+            </>
+          )}
         </CarouselInfinite>
       </section>
     </>
@@ -202,22 +131,58 @@ const TypeCard = ({ type }) => {
   );
 };
 
-const Countries = ({ countries = [] }) => {
+const TypeCardPlaceHolder = () => {
+  return (
+    <>
+      <article className="card text-center" aria-hidden="true">
+        <div className="card-body">
+          <p className="card-title  placeholder-glow">
+            <span className="placeholder col-2"></span>
+          </p>
+        </div>
+        <div className="card-footer">
+          <p className="card-text placeholder-glow">
+            <span className="placeholder col-6"></span>
+          </p>
+        </div>
+      </article>
+    </>
+  );
+};
+
+const Countries = () => {
+  const { countries, loading } = useStaticData();
   return (
     <>
       <section className="container mb-5 pe-0">
         <h3 className="display-5 mb-3">Encuentra el lugar perfecto</h3>
         <CarouselStatic>
-          {countries.length > 0 &&
-            countries.map((country) => (
-              <SwiperSlide
-                className="mb-3"
-                key={country.name}
-                style={{ minWidth: "10rem", minHeight: "10rem" }}
-              >
-                <CountriesCard country={country} />
-              </SwiperSlide>
-            ))}
+          {!loading ? (
+            <>
+              {countries.length > 0 &&
+                countries.map((country) => (
+                  <SwiperSlide
+                    className="mb-3"
+                    key={country.name}
+                    style={{ minWidth: "10rem", minHeight: "10rem" }}
+                  >
+                    <CountriesCard country={country} />
+                  </SwiperSlide>
+                ))}
+            </>
+          ) : (
+            <>
+              {Array.from({ length: 7 }).map((_, index) => (
+                <SwiperSlide
+                  className="mb-3"
+                  key={`countries-${index}`}
+                  style={{ minWidth: "10rem", minHeight: "10rem" }}
+                >
+                  <CountriesCardPlaceholder />
+                </SwiperSlide>
+              ))}
+            </>
+          )}
         </CarouselStatic>
       </section>
     </>
@@ -255,7 +220,23 @@ const CountriesCard = ({ country }) => {
   );
 };
 
-const Popular = ({ restaurants = [] }) => {
+const CountriesCardPlaceholder = () => {
+  return (
+    <>
+      <article className="card text-center" aria-hidden="true">
+        <div className="card-body" style={{ minHeight: "5.5rem" }}></div>
+        <div className="card-footer">
+          <p className="card-text placeholder-glow">
+            <span className="placeholder col-6"></span>
+          </p>
+        </div>
+      </article>
+    </>
+  );
+};
+
+const Popular = () => {
+  const { populars, loading } = useStaticData();
   return (
     <>
       <section className="container mb-5">
@@ -265,17 +246,23 @@ const Popular = ({ restaurants = [] }) => {
         </h3>
 
         <div className="row g-3">
-          {restaurants.length > 0 && (
+          {!loading ? (
             <>
-              {restaurants.map((restaurant = []) => (
-                <div
-                  key={restaurant.id}
-                  className="col-12 col-md-6 col-lg-4 col-xl-3"
-                >
-                  <RestaurantCardSingle restaurant={restaurant} />
-                </div>
-              ))}
+              {populars.length > 0 && (
+                <>
+                  {populars.map((restaurant = []) => (
+                    <div
+                      key={restaurant.id}
+                      className="col-12 col-md-6 col-lg-4 col-xl-3"
+                    >
+                      <RestaurantCardSingle restaurant={restaurant} />
+                    </div>
+                  ))}
+                </>
+              )}
             </>
+          ) : (
+            <p>Cargando ...</p>
           )}
         </div>
       </section>

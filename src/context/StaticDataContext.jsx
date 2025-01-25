@@ -4,6 +4,8 @@ export const StaticData = createContext();
 
 export const StaticDataProvider = ({ children }) => {
   const [index, setIndex] = useState([]);
+  const [populars, setPopulars] = useState([]);
+  const [sponsors, setSponsors] = useState([]);
   const [types, setTypes] = useState([]);
   const [countries, setCountries] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -19,6 +21,32 @@ export const StaticDataProvider = ({ children }) => {
       const data = await response.json();
 
       setIndex(data);
+    } catch (error) {
+      console.error("Error al obtener los datos:", error);
+    }
+  };
+
+  const fetchSponsors = async () => {
+    try {
+      const response = await fetch(`${import.meta.env.VITE_API_URL_SPONSORS}`);
+      if (!response.ok) {
+        throw new Error("Error al cargar el archivo JSON");
+      }
+      const data = await response.json();
+      setSponsors(data);
+    } catch (error) {
+      console.error("Error al obtener los datos:", error);
+    }
+  };
+
+  const fetchPopulars = async () => {
+    try {
+      const response = await fetch(`${import.meta.env.VITE_API_URL_POPULARS}`);
+      if (!response.ok) {
+        throw new Error("Error al cargar el archivo JSON");
+      }
+      const data = await response.json();
+      setPopulars(data);
     } catch (error) {
       console.error("Error al obtener los datos:", error);
     }
@@ -54,13 +82,15 @@ export const StaticDataProvider = ({ children }) => {
 
   useEffect(() => {
     fetchIndexRestaurants();
+    fetchSponsors();
+    fetchPopulars();
     fetchTypes();
     fetchCounties();
     setLoading(false);
   }, []);
 
   return (
-    <StaticData.Provider value={{ types, loading, countries, index }}>
+    <StaticData.Provider value={{ types, loading, countries, index, sponsors, populars }}>
       {children}
     </StaticData.Provider>
   );

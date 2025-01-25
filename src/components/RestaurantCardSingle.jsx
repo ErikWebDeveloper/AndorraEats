@@ -45,4 +45,26 @@ const RestaurantCardSingle = ({ restaurant, cssClass = "" }) => {
   );
 };
 
+export const RestaurantCardSinglePlaceHolder = () => {
+  return (
+    <>
+      <article aria-hidden="true" className={`card h-100 shadow-md border-0`}>
+        <div
+          className="card-header"
+          style={{ backgroundColor: "#a3a3a3", border: "none" }}
+          aria-hidden="true"
+        ></div>
+
+        <p className="card-body placeholder-glow">
+          <span className="placeholder col-7"></span>
+        </p>
+
+        <p className="card-footer placeholder-glow">
+          <span className="placeholder col-3"></span>
+        </p>
+      </article>
+    </>
+  );
+};
+
 export default RestaurantCardSingle;

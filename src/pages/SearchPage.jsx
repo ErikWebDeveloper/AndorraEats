@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router";
-import Logo from "../components/Logo";
 import { useStaticData } from "../context/StaticDataContext";
 
 const SearchPage = () => {
@@ -25,34 +24,10 @@ const SearchPage = () => {
   }, [searchTerm, index, loading]);
 
   return (
-    <>
-      <header
-        className="mb-5"
-        style={{
-          color: "var(--primary-color-brown)",
-          backgroundColor: "var(--primary-color)",
-          fontFamily: "gagalin-regular",
-          lineHeight: "1",
-        }}
-      >
-        <Navbar />
-      </header>
+    <section className="py-5">
       <SearchInput setSearchTerm={setSearchTerm} />
       <ResultsContainer results={filteredResults} />
-    </>
-  );
-};
-
-const Navbar = () => {
-  return (
-    <>
-      <nav className="container d-flex py-3 align-items-center">
-        <div className="flex-fill">
-          <Logo />
-        </div>
-        <button type="button" className="btn-close" aria-label="Close"></button>
-      </nav>
-    </>
+    </section>
   );
 };
 

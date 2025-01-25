@@ -3,10 +3,10 @@ import { useParams, useNavigate } from "react-router";
 import { useStaticData } from "../context/StaticDataContext";
 import RestaurantCardSingle from "../components/RestaurantCardSingle";
 
+import ResultsPageLayout from "../layouts/components/ResultPageLayout";
+
 const ResultsCountryPage = () => {
   const { country } = useParams();
-  const [logo, setLogo] = useState("");
-  const navigate = useNavigate();
   const [result, setResult] = useState([]);
   const [filteredRestaurants, setFilteredRestaurants] = useState([]);
   const [filtersSelected, setFiltersSelected] = useState([]); // Filtros seleccionados
@@ -16,10 +16,6 @@ const ResultsCountryPage = () => {
     loading: loadingStaticData,
     types: filters,
   } = useStaticData();
-
-  const handleClose = () => {
-    navigate("/explore");
-  };
 
   const handleFiltersSelected = (event) => {
     // Actualizar estado de filtros
@@ -57,12 +53,6 @@ const ResultsCountryPage = () => {
     setLoading(false);
   }, []);
 
-  useEffect(() => {
-    if (countries.length === 0) return;
-    const { image } = countries.find((item) => item.name === country);
-    setLogo(image);
-  }, [countries]);
-
   // Filtrar restaurantes cuando cambien los filtros seleccionados
   useEffect(() => {
     if (filtersSelected.length === 0) {
@@ -80,83 +70,14 @@ const ResultsCountryPage = () => {
   if (loading) return <p>Cargando ...</p>;
 
   return (
-    <>
-      {/** Header */}
-      <section
-        className="mb-3"
-        style={{ backgroundColor: "var(--primary-color)" }}
-      >
-        <div className="container">
-          <div className="row py-3 align-items-center">
-            {/* Alineación vertical */}
-            <h5 className="col-10 m-0">
-              {country} ·{" "}
-              <span className="text-secondary fs-6">
-                {filteredRestaurants.length} items
-              </span>
-            </h5>
-            <div className="col-2 text-end">
-              <button
-                country="button"
-                className="btn-close"
-                aria-label="Close"
-                onClick={handleClose}
-              ></button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="container">
-        {/** Filtros */}
-        <form
-          className="d-flex flex-wrap gap-1 mb-3"
-          role="group"
-          aria-label="Filtros de búsqueda por tipos."
-          onChange={handleFiltersSelected}
-        >
-          {filters.length > 0 && (
-            <>
-              {filters.map((filter) => (
-                <div key={filter.name}>
-                  <input
-                    type="checkbox"
-                    className="btn-check"
-                    id={`${filter.name}`}
-                    autoComplete="off"
-                  />
-                  <label
-                    className="btn btn-secondary btn-sm rounded-5"
-                    htmlFor={filter.name}
-                  >
-                    {filter.image} {filter.name}
-                  </label>
-                </div>
-              ))}
-            </>
-          )}
-        </form>
-        {/** Resultados */}
-        <div className="row g-3">
-          {filteredRestaurants.length > 0 ? (
-            <>
-              {filteredRestaurants.map((restaurant) => (
-                <div key={restaurant.id} className="col-12 col-md-6 col-lg-4 col-xl-3">
-                  <RestaurantCardSingle restaurant={restaurant} />
-                </div>
-              ))}
-            </>
-          ) : (
-            <div style={{minHeight: "50vh"}}>
-            <p className="text-muted text-center">
-              No hay resultados ha mostrar ...
-            </p>
-
-            </div>
-          )}
-        </div>
-      </section>
-    </>
+    <ResultsPageLayout
+      title={country}
+      logo="🗺️"
+      filters={filters}
+      handleFiltersSelected={handleFiltersSelected}
+      filteredRestaurants={filteredRestaurants}
+      result={result}
+    />
   );
 };
 

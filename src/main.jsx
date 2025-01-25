@@ -5,6 +5,9 @@ import { BrowserRouter, Routes, Route } from "react-router";
 // Context
 import { StaticDataProvider } from "./context/StaticDataContext";
 
+// Layouts
+import AppLayout from "./layouts/AppLayout";
+
 // Pages
 import LandingPage from "./pages/LandingPage";
 import ExplorePage from "./pages/ExplorePage";
@@ -22,13 +25,16 @@ createRoot(document.getElementById("root")).render(
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/search" element={<SearchPage />} />
-          <Route path="/explore" element={<ExplorePage />} />
-          <Route path="/explore/type/:type" element={<ResultsTypePage />} />
-          <Route
-            path="/explore/country/:country"
-            element={<ResultsCountryPage />}
-          />
+
+          <Route element={<AppLayout />}>
+            <Route path="/search" element={<SearchPage />} />
+            <Route path="/explore" element={<ExplorePage />} />
+            <Route path="/explore/type/:type" element={<ResultsTypePage />} />
+            <Route
+              path="/explore/country/:country"
+              element={<ResultsCountryPage />}
+            />
+          </Route>
 
           <Route
             path="/restaurant/:restaurantId"

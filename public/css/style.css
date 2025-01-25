@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #f9cd4b;
+  /*--primary-color: #f9cd4b;*/
+  --primary-color: #fabb00;
   --primary-color-soft: #f9cd4b50;
-
   --primary-color-brown: #603100;
 }
 
@@ -112,7 +112,7 @@
     rgba(250, 187, 0, 1) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9cd4b",endColorstr="#fabb00",GradientType=1);
-  color: #381c00;
+  color: #603d17;
 }
 
 .faqs-page {
@@ -156,4 +156,8 @@
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9cd4b",endColorstr="#fabb00",GradientType=1);
   color: #381c00;
+}
+
+.bg-primary-solid {
+  background: var(--primary-color);
 }
