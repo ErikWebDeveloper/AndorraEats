@@ -1,8 +1,8 @@
 import { Outlet } from "react-router";
 
 // Componentes
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 const AppLayout = () => {
   return (
@@ -18,7 +18,7 @@ const AppLayout = () => {
 
 const MainLayout = ({ children }) => {
   return (
-    <div className="wrapper" style={{ height: "90vh", overflow: "scroll" }}>
+    <div className="wrapper" style={{ height: "100%", overflow: "scroll" }}>
       <main style={{ minHeight: "90vh" }}>{children}</main>
       <Footer />
     </div>

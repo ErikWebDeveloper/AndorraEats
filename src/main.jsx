@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import { StaticDataProvider } from "./context/StaticDataContext";
 
 // Layouts
-import AppLayout from "./layouts/AppLayout";
+import AppLayout from "./layouts/pages/AppLayout";
 
 // Pages
 import LandingPage from "./pages/LandingPage";
