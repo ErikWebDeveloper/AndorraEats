@@ -1,27 +1,29 @@
 import { Link } from "react-router";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <footer className="bg-dark text-light pt-4">
       <div className="container">
         <div className="row">
           {/* Sección de enlaces */}
           <div className="col-md-4 mb-3">
-            <h5>🔗 Enlaces</h5>
+            <h5>🔗 {t("components.footer.links")}</h5>
             <ul className="list-unstyled">
               <li>
                 <a href="/faqs" className="link text-decoration-none">
-                  FAQs
+                  {t("components.footer.faqs")}
                 </a>
               </li>
               <li>
                 <a href="/about" className="link text-decoration-none">
-                  Sobre Andorra Eats
+                  {t("components.footer.about")}
                 </a>
               </li>
               <li>
                 <a href="/terms" className="link text-decoration-none">
-                  Política y Condiciones
+                  {t("components.footer.about")}
                 </a>
               </li>
               <li>
@@ -30,7 +32,7 @@ const Footer = () => {
                   target="_blank"
                   className="link text-decoration-none"
                 >
-                  Agregar un restaurante
+                  {t("components.footer.form")}
                 </a>
               </li>
             </ul>
@@ -38,9 +40,9 @@ const Footer = () => {
 
           {/* Sección de contacto */}
           <div className="col-md-4 mb-3">
-            <h5>👋 Contacto</h5>
+            <h5>👋 {t("components.footer.contact")}</h5>
             <p className="m-0">
-              <small>Correo electrónico:</small>
+              <small>{t("components.footer.email")}:</small>
             </p>
             <a
               href={`mailto:${import.meta.env.VITE_CONTACT_EMAIL}`}
@@ -73,10 +75,7 @@ const Footer = () => {
             <p className="small">
               &copy; {new Date().getFullYear()} Andorra Eats.
             </p>
-            <p className="small">
-              Diseñado para ayudarte a descubrir todos los restaurantes en
-              Andorra.
-            </p>
+            <p className="small">{t("components.footer.slogan")}</p>
           </div>
         </div>
       </div>

@@ -2,6 +2,9 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router";
 
+// Idiomas
+import "./config/i18n.js";
+
 // Context
 import { StaticDataProvider } from "./context/StaticDataContext";
 

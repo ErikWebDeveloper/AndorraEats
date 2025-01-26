@@ -1,0 +1,22 @@
+{
+  "pages": {
+    "home": {
+      "hero": "¡Descubre nuestros favoritos!",
+      "eat": "¿Qué te apetece comer hoy?",
+      "location": "Encuentra el lugar perfecto",
+      "top": "Los mejores valorados"
+    }
+  },
+  "components": {
+    "footer": {
+      "links": "Enlaces",
+      "faqs": "Preguntas frecuentes",
+      "about": "Sobre Andorra Eats",
+      "terms": "Política y Condiciones",
+      "form": "Agregar un restaurante",
+      "contact": "Contacto",
+      "email": "Correo electrónico:",
+      "slogan": "Diseñado para ayudarte a descubrir todos los restaurantes en Andorra."
+    }
+  }
+}

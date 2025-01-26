@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
-import { useNavigate, Link } from "react-router";
+import { useNavigate } from "react-router";
 import { SwiperSlide } from "swiper/react";
 // Hooks
+import { useTranslation } from "react-i18next";
 import { useStaticData } from "../context/StaticDataContext";
 // Components
 import {
@@ -24,6 +24,7 @@ const ExplorePage = () => {
 };
 
 const Hero = () => {
+  const { t } = useTranslation();
   const { sponsors, loading } = useStaticData();
   return (
     <>
@@ -37,7 +38,7 @@ const Hero = () => {
               lineHeight: "1",
             }}
           >
-            ¡Descubre nuestros favoritos!
+            {t('pages.home.hero')}
           </h3>
           <SwiperCarousel>
             {loading ? (
@@ -68,11 +69,12 @@ const Hero = () => {
 };
 
 const Types = () => {
+  const { t } = useTranslation();
   const { types, loading } = useStaticData();
   return (
     <>
       <section className="container mb-5 pe-0">
-        <h3 className="display-5 mb-3">¿Qué te apetece comer hoy?</h3>
+        <h3 className="display-5 mb-3">{t("pages.home.eat")}</h3>
         <CarouselInfinite>
           {!loading ? (
             <>
@@ -151,11 +153,13 @@ const TypeCardPlaceHolder = () => {
 };
 
 const Countries = () => {
+  const { t } = useTranslation();
+
   const { countries, loading } = useStaticData();
   return (
     <>
       <section className="container mb-5 pe-0">
-        <h3 className="display-5 mb-3">Encuentra el lugar perfecto</h3>
+        <h3 className="display-5 mb-3">{t("pages.home.location")}</h3>
         <CarouselStatic>
           {!loading ? (
             <>
@@ -236,13 +240,15 @@ const CountriesCardPlaceholder = () => {
 };
 
 const Popular = () => {
+  const { t } = useTranslation();
+
   const { populars, loading } = useStaticData();
   return (
     <>
       <section className="container mb-5">
         <h3 className="display-5 mb-3">
-          Los mejores valorados{" "}
-          <span style={{ color: "var(--primary-color" }}>★</span>
+          <span style={{ color: "var(--primary-color" }}>★ </span>
+          {t('pages.home.top')}
         </h3>
 
         <div className="row g-3">

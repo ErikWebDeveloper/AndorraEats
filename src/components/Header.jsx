@@ -1,12 +1,15 @@
 import { Link, useLocation, useNavigate } from "react-router";
 
-const Header = () => {
+const Navbar = () => {
   const location = useLocation();
 
   const toClose = location.pathname !== `${import.meta.env.VITE_EXPLORE_URL}`;
 
   return (
-    <header className="bg-primary-solid">
+    <header
+      className="bg-primary-solid d-flex justify-content-center align-items-center"
+      style={{ height: "10vh" }}
+    >
       <div className="container">
         <nav className="navbar navbar-expand-lg">
           <div className="container-fluid">
@@ -85,4 +88,4 @@ const CloseIcon = () => {
     ></button>
   );
 };
-export default Header;
+export default Navbar;
