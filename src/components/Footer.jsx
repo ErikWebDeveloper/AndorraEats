@@ -4,7 +4,10 @@ import { useTranslation } from "react-i18next";
 const Footer = () => {
   const { t } = useTranslation();
   return (
-    <footer className="bg-dark text-light pt-4">
+    <footer
+      className="text-light pt-4 bg-dark"
+      
+    >
       <div className="container">
         <div className="row">
           {/* Sección de enlaces */}

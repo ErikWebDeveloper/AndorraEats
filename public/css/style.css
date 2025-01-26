@@ -3,10 +3,11 @@
   --primary-color: #fabb00;
   --primary-color-soft: #f9cd4b50;
   --primary-color-brown: #603100;
+  --footer: #201209;
 }
-
-.offcanvas {
-  height: 90vh !important;
+@font-face {
+  font-family: gagalin-regular;
+  src: url(/fonts/Gagalin-Regular.otf);
 }
 
 .pointer {
@@ -18,11 +19,6 @@
   border-color: var(--primary-color);
   box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.1);
   transition: 0.3s all;
-}
-
-@font-face {
-  font-family: gagalin-regular;
-  src: url(/fonts/Gagalin-Regular.otf);
 }
 
 .card-header {
@@ -160,4 +156,24 @@
 
 .bg-primary-solid {
   background: var(--primary-color);
+}
+
+.bg-footer {
+  background: rgb(75, 40, 18);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(75, 40, 18, 1) 0%,
+    rgba(32, 18, 9, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(75, 40, 18, 1) 0%,
+    rgba(32, 18, 9, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(75, 40, 18, 1) 0%,
+    rgba(32, 18, 9, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4b2812",endColorstr="#201209",GradientType=1);
 }

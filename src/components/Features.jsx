@@ -9,8 +9,6 @@ const Features = ({ restaurant }) => {
               {feature}
             </span>
           ))}
-          <span className="badge text-bg-secondary">🚗 Parking </span>
-          <span className="badge text-bg-secondary">🐶 Pet friendly</span>
         </p>
       </article>
     </>
