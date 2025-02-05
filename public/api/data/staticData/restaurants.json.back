@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "1",
+    "name": "Restaurante El Sabor Especial",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.8,
+    "user_ratings_total": 325,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Andorra la Vella",
+    "type": "🍕 Pizza",
+    "price": 1,
+    "image": "/1.jpg",
+    "features": [
+      "🐾 Aceptan animales",
+      "📶 Wi-Fi gratuito",
+      "🏙️ Céntrico",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🅿️ Parking"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "La Cocina Mediterránea",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.5,
+    "user_ratings_total": 204,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Escaldes-Engordany",
+    "type": "🌍 Mediterráneo",
+    "price": 2,
+    "image": "/2.jpg",
+    "features": [
+      "♿ Acceso personas con discapacidad",
+      "📶 Wi-Fi gratuito",
+      "🥗 Especialidad en ensaladas",
+      "🌞 Zona al aire libre",
+      "🎶 Música en vivo"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Restaurante El Buen Kebab",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.2,
+    "user_ratings_total": 98,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Sant Julià de Lòria",
+    "type": "🥙 Kebab",
+    "price": 3,
+    "image": "/3.jpg",
+    "features": [
+      "🛵 Servicio a domicilio",
+      "🛋️ Salones Privados",
+      "🎉 Banquetes",
+      "🌳 Terraza/Jardín",
+      "🚚 Entrega a domicilio"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Café Nueva York",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.7,
+    "user_ratings_total": 150,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Ordino",
+    "type": "🍔 New Yorkina",
+    "price": 2,
+    "image": "/4.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🌅 Vista panorámica",
+      "🌞 Zona al aire libre",
+      "💳 Tarjetas de crédito",
+      "🥗 Especialidad en ensaladas"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "La Casa del Marisco",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.3,
+    "user_ratings_total": 270,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "La Massana",
+    "type": "🦞 Mariscos",
+    "price": 4,
+    "image": "/5.jpg",
+    "features": [
+      "🅿️ Parking",
+      "🌳 Terraza/Jardín",
+      "🎉 Banquetes",
+      "🚚 Entrega a domicilio",
+      "🐾 Aceptan animales"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Pizzería La Dolce Vita",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.6,
+    "user_ratings_total": 180,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Andorra la Vella",
+    "type": "🍕 Pizza",
+    "price": 1,
+    "image": "/6.jpg",
+    "features": [
+      "🐾 Aceptan animales",
+      "🌳 Terraza/Jardín",
+      "📶 Wi-Fi gratuito",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "💳 Tarjetas de crédito"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Restaurante El Buen Gusto",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.4,
+    "user_ratings_total": 210,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Escaldes-Engordany",
+    "type": "🍝 Italiano",
+    "price": 2,
+    "image": "/7.jpg",
+    "features": [
+      "♿ Acceso personas con discapacidad",
+      "🌞 Zona al aire libre",
+      "📶 Wi-Fi gratuito",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🥗 Especialidad en ensaladas"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Taco Loco",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.0,
+    "user_ratings_total": 100,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "La Massana",
+    "type": "🌮 Mexicano",
+    "price": 2,
+    "image": "/8.jpg",
+    "features": [
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🌳 Terraza/Jardín",
+      "🛵 Servicio a domicilio",
+      "🌞 Zona al aire libre",
+      "🎶 Música en vivo"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Sushi Master",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.9,
+    "user_ratings_total": 300,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Ordino",
+    "type": "🍣 Japonés",
+    "price": 3,
+    "image": "/9.jpg",
+    "features": [
+      "🐾 Aceptan animales",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "📶 Wi-Fi gratuito",
+      "🌞 Zona al aire libre",
+      "💳 Tarjetas de crédito"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "La Parrilla Andorrana",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.6,
+    "user_ratings_total": 175,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Sant Julià de Lòria",
+    "type": "🍖 Parrilla",
+    "price": 3,
+    "image": "/10.jpg",
+    "features": [
+      "🅿️ Parking",
+      "🌳 Terraza/Jardín",
+      "🎉 Banquetes",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🍜 Recogida en el local"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Burguer & Co.",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.3,
+    "user_ratings_total": 220,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Andorra la Vella",
+    "type": "🍔 Burger",
+    "price": 2,
+    "image": "/11.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🌞 Zona al aire libre",
+      "💳 Tarjetas de crédito",
+      "🥗 Especialidad en ensaladas",
+      "🛋️ Salones Privados"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Café El Rincón",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.0,
+    "user_ratings_total": 150,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Escaldes-Engordany",
+    "type": "🍽️ De Autor",
+    "price": 2,
+    "image": "/12.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🌅 Vista panorámica",
+      "🎶 Música en vivo",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "💳 Tarjetas de crédito"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Tienda de Pescados y Mariscos",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.8,
+    "user_ratings_total": 320,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "La Massana",
+    "type": "🍤 Mariscos",
+    "price": 4,
+    "image": "/13.jpg",
+    "features": [
+      "🅿️ Parking",
+      "🌳 Terraza/Jardín",
+      "🛵 Servicio a domicilio",
+      "📶 Wi-Fi gratuito",
+      "🐾 Aceptan animales"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "name": "La Fonda del Chef",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.5,
+    "user_ratings_total": 140,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Sant Julià de Lòria",
+    "type": "🍲 Mediterráneo",
+    "price": 3,
+    "image": "/14.jpg",
+    "features": [
+      "♿ Acceso personas con discapacidad",
+      "📶 Wi-Fi gratuito",
+      "🌞 Zona al aire libre",
+      "🎉 Banquetes",
+      "💳 Tarjetas de crédito"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Café del Mar",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.2,
+    "user_ratings_total": 180,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Ordino",
+    "type": "🍷 Vinacoteca",
+    "price": 3,
+    "image": "/15.jpg",
+    "features": [
+      "🧑‍💻 Espacio coworking",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🛋️ Salones Privados",
+      "🎶 Música en vivo",
+      "💳 Tarjetas de crédito"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Ramen Master",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.7,
+    "user_ratings_total": 250,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Escaldes-Engordany",
+    "type": "🍲 Asiático",
+    "price": 2,
+    "image": "/16.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🛋️ Salones Privados",
+      "🥗 Especialidad en ensaladas",
+      "🌞 Zona al aire libre",
+      "🍽️ Protocolo contra el desperdicio de alimentos"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "name": "La Pizzería de la Plaza",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.1,
+    "user_ratings_total": 190,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Andorra la Vella",
+    "type": "🍕 Pizza",
+    "price": 1,
+    "image": "/17.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🌳 Terraza/Jardín",
+      "🌅 Vista panorámica",
+      "💳 Tarjetas de crédito",
+      "🥗 Especialidad en ensaladas"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "name": "La Casa de las Carnes",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.8,
+    "user_ratings_total": 330,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Sant Julià de Lòria",
+    "type": "🥩 Carnes",
+    "price": 4,
+    "image": "/18.jpg",
+    "features": [
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🛵 Servicio a domicilio",
+      "🌳 Terraza/Jardín",
+      "💳 Tarjetas de crédito",
+      "🎉 Banquetes"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Mexican Grill",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.4,
+    "user_ratings_total": 200,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "La Massana",
+    "type": "🌮 Mexicano",
+    "price": 2,
+    "image": "/19.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🌞 Zona al aire libre",
+      "🎉 Banquetes",
+      "🐾 Aceptan animales",
+      "🍽️ Protocolo contra el desperdicio de alimentos"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Pastelería & Café La Dulce Vida",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.5,
+    "user_ratings_total": 210,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Escaldes-Engordany",
+    "type": "🍩 Pastelería",
+    "price": 1,
+    "image": "/20.jpg",
+    "features": [
+      "🐾 Aceptan animales",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🖥️ Reservas online",
+      "🌳 Terraza/Jardín",
+      "🍦 Heladería"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Heladería El Paraíso",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.9,
+    "user_ratings_total": 190,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Andorra la Vella",
+    "type": "🍦 Heladería",
+    "price": 1,
+    "image": "/21.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🌳 Terraza/Jardín",
+      "🍩 Pastelería",
+      "🌞 Zona al aire libre"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "name": "La Casa de la Parrilla",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.3,
+    "user_ratings_total": 230,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Sant Julià de Lòria",
+    "type": "🍖 Parrilla",
+    "price": 3,
+    "image": "/22.jpg",
+    "features": [
+      "🛋️ Salones Privados",
+      "💳 Tarjetas de crédito",
+      "🌞 Zona al aire libre",
+      "🎉 Banquetes",
+      "🍽️ Protocolo contra el desperdicio de alimentos"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Café & Tapas La Solana",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.0,
+    "user_ratings_total": 180,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Ordino",
+    "type": "🍽️ Francesa",
+    "price": 2,
+    "image": "/23.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🥗 Especialidad en ensaladas",
+      "🌳 Terraza/Jardín",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🎶 Música en vivo"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "name": "El Tenedor del Chef",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.7,
+    "user_ratings_total": 300,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "La Massana",
+    "type": "🍽️ De Autor",
+    "price": 3,
+    "image": "/24.jpg",
+    "features": [
+      "🅿️ Parking",
+      "🧑‍💻 Espacio coworking",
+      "🎶 Música en vivo",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🛋️ Salones Privados"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "name": "La Estación del Sushi",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.4,
+    "user_ratings_total": 210,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Escaldes-Engordany",
+    "type": "🍣 Japonés",
+    "price": 3,
+    "image": "/25.jpg",
+    "features": [
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🌞 Zona al aire libre",
+      "🖥️ Reservas online",
+      "🐾 Aceptan animales",
+      "📶 Wi-Fi gratuito"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Burgers & Friends",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.6,
+    "user_ratings_total": 290,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Andorra la Vella",
+    "type": "🍔 Burger",
+    "price": 2,
+    "image": "/26.jpg",
+    "features": [
+      "🐾 Aceptan animales",
+      "🌳 Terraza/Jardín",
+      "🎉 Banquetes",
+      "📶 Wi-Fi gratuito",
+      "🥗 Especialidad en ensaladas"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "name": "El Restaurante de los Amigos",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.2,
+    "user_ratings_total": 160,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Sant Julià de Lòria",
+    "type": "🍝 Italiano",
+    "price": 2,
+    "image": "/27.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🌳 Terraza/Jardín",
+      "🎶 Música en vivo",
+      "💳 Tarjetas de crédito",
+      "🥗 Especialidad en ensaladas"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "name": "Taco Fiesta",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.1,
+    "user_ratings_total": 150,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "La Massana",
+    "type": "🌮 Mexicano",
+    "price": 2,
+    "image": "/28.jpg",
+    "features": [
+      "🛋️ Salones Privados",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🌳 Terraza/Jardín",
+      "🎉 Banquetes",
+      "🛵 Servicio a domicilio"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "name": "Helados & Más",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.8,
+    "user_ratings_total": 280,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Escaldes-Engordany",
+    "type": "🍦 Heladería",
+    "price": 1,
+    "image": "/29.jpg",
+    "features": [
+      "🌞 Zona al aire libre",
+      "🐾 Aceptan animales",
+      "🎶 Música en vivo",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🖥️ Reservas online"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "name": "Pasta & Co.",
+    "description": "Disfruta de una experiencia gastronómica única, donde la tradición y la innovación se fusionan para ofrecer sabores inigualables. Nuestro compromiso con la calidad se refleja en cada platillo, elaborado con ingredientes frescos y cuidadosamente seleccionados. Un ambiente acogedor, un servicio excepcional y una carta variada te esperan para deleitar tus sentidos. Ya sea para una comida especial, una reunión con amigos o simplemente para disfrutar de un buen momento, aquí encontrarás el lugar perfecto. Ven y descubre una propuesta culinaria que te sorprenderá.",
+    "link": "https://google.com",
+    "rating": 4.7,
+    "user_ratings_total": 300,
+    "location": "https://maps.app.goo.gl/tAEk4dJvMqu4AnB69",
+    "country": "Andorra la Vella",
+    "type": "🍝 Italiano",
+    "price": 2,
+    "image": "/30.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🎉 Banquetes",
+      "🌳 Terraza/Jardín",
+      "💳 Tarjetas de crédito",
+      "🍽️ Protocolo contra el desperdicio de alimentos"
+    ],
+    "recommended_dishes": [
+      {
+        "image": "/assets/dish_1.jpg",
+        "name": "Mejillones a la vinagreta"
+      },
+      {
+        "image": "/assets/dish_2.jpg",
+        "name": "Patatas bravas"
+      },
+      {
+        "image": "/assets/dish_3.jpg",
+        "name": "Plato de jamón iberico"
+      }
+    ]
+  }
+]

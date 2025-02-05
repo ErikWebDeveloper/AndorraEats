@@ -1,0 +1,44 @@
+[
+  {
+    "id": "10",
+    "name": "La Parrilla Andorrana",
+    "rating": 4.6,
+    "user_ratings_total": 175,
+    "location": {
+      "lat": 40.4178,
+      "lng": -3.7029
+    },
+    "country": "Sant Julià de Lòria",
+    "type": "🍖 Parrilla",
+    "price": 3,
+    "image": "/10.jpg",
+    "features": [
+      "🅿️ Parking",
+      "🌳 Terraza/Jardín",
+      "🎉 Banquetes",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🍜 Recogida en el local"
+    ]
+  },
+  {
+    "id": "22",
+    "name": "La Casa de la Parrilla",
+    "rating": 4.3,
+    "user_ratings_total": 230,
+    "location": {
+      "lat": 40.418,
+      "lng": -3.7079
+    },
+    "country": "Sant Julià de Lòria",
+    "type": "🍖 Parrilla",
+    "price": 3,
+    "image": "/22.jpg",
+    "features": [
+      "🛋️ Salones Privados",
+      "💳 Tarjetas de crédito",
+      "🌞 Zona al aire libre",
+      "🎉 Banquetes",
+      "🍽️ Protocolo contra el desperdicio de alimentos"
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "21",
+    "name": "Heladería El Paraíso",
+    "rating": 4.9,
+    "user_ratings_total": 190,
+    "location": {
+      "lat": 40.4178,
+      "lng": -3.7078
+    },
+    "country": "Andorra la Vella",
+    "type": "🍦 Heladería",
+    "price": 1,
+    "image": "/21.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🌳 Terraza/Jardín",
+      "🍩 Pastelería",
+      "🌞 Zona al aire libre"
+    ]
+  },
+  {
+    "id": "29",
+    "name": "Helados & Más",
+    "rating": 4.8,
+    "user_ratings_total": 280,
+    "location": {
+      "lat": 40.4185,
+      "lng": -3.7086
+    },
+    "country": "Escaldes-Engordany",
+    "type": "🍦 Heladería",
+    "price": 1,
+    "image": "/29.jpg",
+    "features": [
+      "🌞 Zona al aire libre",
+      "🐾 Aceptan animales",
+      "🎶 Música en vivo",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🖥️ Reservas online"
+    ]
+  }
+]

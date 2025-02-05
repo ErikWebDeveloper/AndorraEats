@@ -1,0 +1,149 @@
+[
+  {
+    "id": "1",
+    "name": "Restaurante El Sabor Especial",
+    "rating": 4.8,
+    "user_ratings_total": 325,
+    "location": {
+      "lat": 40.416775,
+      "lng": -3.70379
+    },
+    "country": "Andorra la Vella",
+    "type": "🍕 Pizza",
+    "price": 1,
+    "image": "/1.jpg",
+    "features": [
+      "🐾 Aceptan animales",
+      "📶 Wi-Fi gratuito",
+      "🏙️ Céntrico",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🅿️ Parking"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Pizzería La Dolce Vita",
+    "rating": 4.6,
+    "user_ratings_total": 180,
+    "location": {
+      "lat": 40.415,
+      "lng": -3.707
+    },
+    "country": "Andorra la Vella",
+    "type": "🍕 Pizza",
+    "price": 1,
+    "image": "/6.jpg",
+    "features": [
+      "🐾 Aceptan animales",
+      "🌳 Terraza/Jardín",
+      "📶 Wi-Fi gratuito",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "💳 Tarjetas de crédito"
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Burguer & Co.",
+    "rating": 4.3,
+    "user_ratings_total": 220,
+    "location": {
+      "lat": 40.4181,
+      "lng": -3.7035
+    },
+    "country": "Andorra la Vella",
+    "type": "🍔 Burger",
+    "price": 2,
+    "image": "/11.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🌞 Zona al aire libre",
+      "💳 Tarjetas de crédito",
+      "🥗 Especialidad en ensaladas",
+      "🛋️ Salones Privados"
+    ]
+  },
+  {
+    "id": "17",
+    "name": "La Pizzería de la Plaza",
+    "rating": 4.1,
+    "user_ratings_total": 190,
+    "location": {
+      "lat": 40.4173,
+      "lng": -3.7074
+    },
+    "country": "Andorra la Vella",
+    "type": "🍕 Pizza",
+    "price": 1,
+    "image": "/17.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🌳 Terraza/Jardín",
+      "🌅 Vista panorámica",
+      "💳 Tarjetas de crédito",
+      "🥗 Especialidad en ensaladas"
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Heladería El Paraíso",
+    "rating": 4.9,
+    "user_ratings_total": 190,
+    "location": {
+      "lat": 40.4178,
+      "lng": -3.7078
+    },
+    "country": "Andorra la Vella",
+    "type": "🍦 Heladería",
+    "price": 1,
+    "image": "/21.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🌳 Terraza/Jardín",
+      "🍩 Pastelería",
+      "🌞 Zona al aire libre"
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Burgers & Friends",
+    "rating": 4.6,
+    "user_ratings_total": 290,
+    "location": {
+      "lat": 40.4194,
+      "lng": -3.7083
+    },
+    "country": "Andorra la Vella",
+    "type": "🍔 Burger",
+    "price": 2,
+    "image": "/26.jpg",
+    "features": [
+      "🐾 Aceptan animales",
+      "🌳 Terraza/Jardín",
+      "🎉 Banquetes",
+      "📶 Wi-Fi gratuito",
+      "🥗 Especialidad en ensaladas"
+    ]
+  },
+  {
+    "id": "30",
+    "name": "Pasta & Co.",
+    "rating": 4.7,
+    "user_ratings_total": 300,
+    "location": {
+      "lat": 40.4196,
+      "lng": -3.7087
+    },
+    "country": "Andorra la Vella",
+    "type": "🍝 Italiano",
+    "price": 2,
+    "image": "/30.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🎉 Banquetes",
+      "🌳 Terraza/Jardín",
+      "💳 Tarjetas de crédito",
+      "🍽️ Protocolo contra el desperdicio de alimentos"
+    ]
+  }
+]

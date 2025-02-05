@@ -1,0 +1,23 @@
+[
+  {
+    "id": "15",
+    "name": "Café del Mar",
+    "rating": 4.2,
+    "user_ratings_total": 180,
+    "location": {
+      "lat": 40.4182,
+      "lng": -3.7067
+    },
+    "country": "Ordino",
+    "type": "🍷 Vinacoteca",
+    "price": 3,
+    "image": "/15.jpg",
+    "features": [
+      "🧑‍💻 Espacio coworking",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🛋️ Salones Privados",
+      "🎶 Música en vivo",
+      "💳 Tarjetas de crédito"
+    ]
+  }
+]

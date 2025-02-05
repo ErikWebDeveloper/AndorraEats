@@ -1,0 +1,128 @@
+[
+  {
+    "id": "5",
+    "name": "La Casa del Marisco",
+    "rating": 4.3,
+    "user_ratings_total": 270,
+    "location": {
+      "lat": 40.417,
+      "lng": -3.7025
+    },
+    "country": "La Massana",
+    "type": "🦞 Mariscos",
+    "price": 4,
+    "image": "/5.jpg",
+    "features": [
+      "🅿️ Parking",
+      "🌳 Terraza/Jardín",
+      "🎉 Banquetes",
+      "🚚 Entrega a domicilio",
+      "🐾 Aceptan animales"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Taco Loco",
+    "rating": 4,
+    "user_ratings_total": 100,
+    "location": {
+      "lat": 40.419,
+      "lng": -3.7055
+    },
+    "country": "La Massana",
+    "type": "🌮 Mexicano",
+    "price": 2,
+    "image": "/8.jpg",
+    "features": [
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🌳 Terraza/Jardín",
+      "🛵 Servicio a domicilio",
+      "🌞 Zona al aire libre",
+      "🎶 Música en vivo"
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Tienda de Pescados y Mariscos",
+    "rating": 4.8,
+    "user_ratings_total": 320,
+    "location": {
+      "lat": 40.4166,
+      "lng": -3.7072
+    },
+    "country": "La Massana",
+    "type": "🍤 Mariscos",
+    "price": 4,
+    "image": "/13.jpg",
+    "features": [
+      "🅿️ Parking",
+      "🌳 Terraza/Jardín",
+      "🛵 Servicio a domicilio",
+      "📶 Wi-Fi gratuito",
+      "🐾 Aceptan animales"
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Mexican Grill",
+    "rating": 4.4,
+    "user_ratings_total": 200,
+    "location": {
+      "lat": 40.4174,
+      "lng": -3.7076
+    },
+    "country": "La Massana",
+    "type": "🌮 Mexicano",
+    "price": 2,
+    "image": "/19.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🌞 Zona al aire libre",
+      "🎉 Banquetes",
+      "🐾 Aceptan animales",
+      "🍽️ Protocolo contra el desperdicio de alimentos"
+    ]
+  },
+  {
+    "id": "24",
+    "name": "El Tenedor del Chef",
+    "rating": 4.7,
+    "user_ratings_total": 300,
+    "location": {
+      "lat": 40.4179,
+      "lng": -3.7081
+    },
+    "country": "La Massana",
+    "type": "🍽️ De Autor",
+    "price": 3,
+    "image": "/24.jpg",
+    "features": [
+      "🅿️ Parking",
+      "🧑‍💻 Espacio coworking",
+      "🎶 Música en vivo",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🛋️ Salones Privados"
+    ]
+  },
+  {
+    "id": "28",
+    "name": "Taco Fiesta",
+    "rating": 4.1,
+    "user_ratings_total": 150,
+    "location": {
+      "lat": 40.417,
+      "lng": -3.7085
+    },
+    "country": "La Massana",
+    "type": "🌮 Mexicano",
+    "price": 2,
+    "image": "/28.jpg",
+    "features": [
+      "🛋️ Salones Privados",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🌳 Terraza/Jardín",
+      "🎉 Banquetes",
+      "🛵 Servicio a domicilio"
+    ]
+  }
+]

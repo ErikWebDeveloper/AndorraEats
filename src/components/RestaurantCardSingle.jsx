@@ -1,5 +1,7 @@
 import { useNavigate } from "react-router";
 
+import Stars from "./Stars";
+
 const RestaurantCardSingle = ({ restaurant, cssClass = "" }) => {
   const navigate = useNavigate();
 
@@ -16,7 +18,11 @@ const RestaurantCardSingle = ({ restaurant, cssClass = "" }) => {
       >
         <div className="card-header p-0">
           <img
-            src={`${import.meta.env.VITE_API_URL_IMAGES}/${restaurant.image}`}
+            src={
+              restaurant.image && restaurant.image !== ""
+                ? `${import.meta.env.VITE_API_URL_IMAGES}/${restaurant.image}`
+                : "/img/app/no_photo.png"
+            }
             alt={restaurant.name}
           />
         </div>
@@ -26,19 +32,25 @@ const RestaurantCardSingle = ({ restaurant, cssClass = "" }) => {
             {restaurant.name}
           </h1>
           {/** Valoración */}
-          <p
-            className="card-text"
-            style={{ color: "orange", fontSize: "0.8rem" }}
-          >
-            ★★★☆☆ {restaurant.rating}
-          </p>
+          <Stars rating={restaurant.rating} />
         </div>
         {/** Footer */}
-        <div className="card-footer d-flex" style={{ fontSize: "0.8rem" }}>
-          <span key={restaurant.type} className="flex-fill">
-            {restaurant.type}{" "}
+        <div
+          className="card-footer d-flex align-items-center justify-content-between"
+          style={{ fontSize: "0.8rem" }}
+        >
+          <span
+            key={restaurant.type}
+            className="flex-fill d-flex align-items-center"
+          >
+            {restaurant.type}
           </span>
-          <p className="badge text-bg-warning">📍 {restaurant.country}</p>
+          <span
+            className="badge text-bg-warning d-flex align-items-center justify-content-center"
+            style={{ minWidth: "60px" }}
+          >
+            📍 {restaurant.country}
+          </span>
         </div>
       </article>
     </>

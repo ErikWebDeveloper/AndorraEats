@@ -84,18 +84,22 @@ const ResultsContainer = ({ results }) => {
 
 const ResultCard = ({ result }) => {
   return (
-    <Link
-      className="card shadow-md bg-body-tertiary text-decoration-none"
-      role="button"
-      to={`/restaurant/${result.id}`}
-    >
-      <div className="card-body d-flex flex-wrap">
-        <h6 className="card-title flex-fill">{result.name}</h6>
-        <p className="card-text badge text-bg-warning text-end">
-          📍 {result.country}
-        </p>
+    <div className="card shadow-md bg-body-tertiary h-100">
+      <div className="card-body d-flex flex-warp gap-3">
+        <Link
+          className="text-decoration-none text-black flex-fill"
+          role="button"
+          to={`/restaurant/${result.id}`}
+        >
+          {result.name}
+        </Link>
+        <div>
+          <span className="badge text-bg-warning text-end">
+            📍 {result.country}
+          </span>
+        </div>
       </div>
-    </Link>
+    </div>
   );
 };
 

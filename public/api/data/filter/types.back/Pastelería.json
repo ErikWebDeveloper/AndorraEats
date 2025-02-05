@@ -1,0 +1,23 @@
+[
+  {
+    "id": "20",
+    "name": "Pastelería & Café La Dulce Vida",
+    "rating": 4.5,
+    "user_ratings_total": 210,
+    "location": {
+      "lat": 40.4176,
+      "lng": -3.7077
+    },
+    "country": "Escaldes-Engordany",
+    "type": "🍩 Pastelería",
+    "price": 1,
+    "image": "/20.jpg",
+    "features": [
+      "🐾 Aceptan animales",
+      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "🖥️ Reservas online",
+      "🌳 Terraza/Jardín",
+      "🍦 Heladería"
+    ]
+  }
+]

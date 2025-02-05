@@ -1,0 +1,44 @@
+[
+  {
+    "id": "11",
+    "name": "Burguer & Co.",
+    "rating": 4.3,
+    "user_ratings_total": 220,
+    "location": {
+      "lat": 40.4181,
+      "lng": -3.7035
+    },
+    "country": "Andorra la Vella",
+    "type": "🍔 Burger",
+    "price": 2,
+    "image": "/11.jpg",
+    "features": [
+      "📶 Wi-Fi gratuito",
+      "🌞 Zona al aire libre",
+      "💳 Tarjetas de crédito",
+      "🥗 Especialidad en ensaladas",
+      "🛋️ Salones Privados"
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Burgers & Friends",
+    "rating": 4.6,
+    "user_ratings_total": 290,
+    "location": {
+      "lat": 40.4194,
+      "lng": -3.7083
+    },
+    "country": "Andorra la Vella",
+    "type": "🍔 Burger",
+    "price": 2,
+    "image": "/26.jpg",
+    "features": [
+      "🐾 Aceptan animales",
+      "🌳 Terraza/Jardín",
+      "🎉 Banquetes",
+      "📶 Wi-Fi gratuito",
+      "🥗 Especialidad en ensaladas"
+    ]
+  }
+]

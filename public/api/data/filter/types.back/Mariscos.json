@@ -1,0 +1,44 @@
+[
+  {
+    "id": "5",
+    "name": "La Casa del Marisco",
+    "rating": 4.3,
+    "user_ratings_total": 270,
+    "location": {
+      "lat": 40.417,
+      "lng": -3.7025
+    },
+    "country": "La Massana",
+    "type": "🦞 Mariscos",
+    "price": 4,
+    "image": "/5.jpg",
+    "features": [
+      "🅿️ Parking",
+      "🌳 Terraza/Jardín",
+      "🎉 Banquetes",
+      "🚚 Entrega a domicilio",
+      "🐾 Aceptan animales"
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Tienda de Pescados y Mariscos",
+    "rating": 4.8,
+    "user_ratings_total": 320,
+    "location": {
+      "lat": 40.4166,
+      "lng": -3.7072
+    },
+    "country": "La Massana",
+    "type": "🍤 Mariscos",
+    "price": 4,
+    "image": "/13.jpg",
+    "features": [
+      "🅿️ Parking",
+      "🌳 Terraza/Jardín",
+      "🛵 Servicio a domicilio",
+      "📶 Wi-Fi gratuito",
+      "🐾 Aceptan animales"
+    ]
+  }
+]
