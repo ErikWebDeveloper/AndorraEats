@@ -88,9 +88,18 @@ const Card = ({ restaurant }) => {
           )}
         </div>
         {!restaurant.trusted && (
-          <div className="alert alert-warning text-center" role="alert">
+          <div class="alert alert-warning text-center" role="alert">
             ⚠️ Esta información puede estar obsoleta o contener errores.
-            Verifica los datos antes de confiar en ellos.
+            <br />
+            Ayúdanos a mejorar:{" "}
+            <a href="URL_DE_REPORTE" class="alert-link">
+              reportar un error
+            </a>{" "}
+            o{" "}
+            <a href="URL_DE_AÑADIR_INFO" class="alert-link">
+              añadir información del sitio
+            </a>
+            .
           </div>
         )}
 
