@@ -70,7 +70,7 @@ const ResultsContainer = ({ results }) => {
         {results.length > 0 ? (
           results.map((result) => (
             // Añadir la key en el div directamente
-            <div key={result.id} className="col-12 col-md-4">
+            <div key={result.id} className="col-12 col-md-6 col-lg-4">
               <ResultCard result={result} />
             </div>
           ))
