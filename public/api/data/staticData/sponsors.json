@@ -1,107 +1,224 @@
 [
   {
-    "id": "20",
-    "name": "Pastelería & Café La Dulce Vida",
-    "rating": 4.5,
-    "user_ratings_total": 210,
-    "location": {
-      "lat": 40.4176,
-      "lng": -3.7077
-    },
+    "id": "1118",
+    "name": "UDON Andorra",
+    "type": "🍣 Japonés",
+    "image": "1118.jpg",
+    "rating": "4",
     "country": "Escaldes-Engordany",
-    "type": "🍩 Pastelería",
-    "price": 1,
-    "image": "/20.jpg",
+    "sub_country": "Escaldes-Engordany",
+    "description": "¡Bienvenidos a UDON, la cadena de noodle bars más divertida y original! Somos especialistas en noodles (fideos), pero también hacemos deliciosos platos de acompañamiento, arroces, ensaladas y unos postres deliciosos. UDON es un restaurante especializado en noodles, se basa en el concepto de casual food, que combina la filosofía de la comida rápida, la velocidad y el precio competitivo con la calidad de la materia prima y el servicio de la cocina tradicional.",
+    "location": "Calle Unio 5, Escaldes-Engordany AD700 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"12:00 - 15:45\",\"19:00 - 22:45\"]}, {\"day\":\"Martes\",\"hours\":[\"12:00 - 15:45\",\"19:00 - 22:45\"]}, {\"day\":\"Miércoles\",\"hours\":[\"12:00 - 15:45\",\"19:00 - 22:45\"]}, {\"day\":\"Jueves\",\"hours\":[\"12:00 - 15:45\",\"19:00 - 22:45\"]}, {\"day\":\"Viernes\",\"hours\":[\"12:00 - 15:45\",\"19:00 - 22:45\"]}, {\"day\":\"Domingo\",\"hours\":[\"12:00 - 15:45\",\"19:00 - 22:45\"]}",
     "features": [
-      "🐾 Aceptan animales",
-      "🍽️ Protocolo contra el desperdicio de alimentos",
+      "♿ Acceso personas con discapacidad",
+      "💳 Tarjetas de crédito",
+      "👥 Amigable para grupos grandes",
+      "📦 Recogida en el local",
       "🖥️ Reservas online",
       "🌳 Terraza/Jardín",
-      "🍦 Heladería"
-    ]
+      "📶 Wi-Fi disponible"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
   },
   {
-    "id": "21",
-    "name": "Heladería El Paraíso",
-    "rating": 4.9,
-    "user_ratings_total": 190,
-    "location": {
-      "lat": 40.4178,
-      "lng": -3.7078
-    },
+    "id": "1102",
+    "name": "Alta Taberna Aires Gourmet",
+    "type": "🍤 Mariscos",
+    "image": "1102.jpg",
+    "rating": "5",
     "country": "Andorra la Vella",
-    "type": "🍦 Heladería",
-    "price": 1,
-    "image": "/21.jpg",
+    "sub_country": "Andorra la Vella",
+    "description": "\"Nuestra propuesta es una mezcla de platos típicos tradicionales, con la intención de trasladarnos a través del conjunto de aromas, a rincones únicos. Instalaciones modernas y acogedoras donde te sentirás como en casa. Nuestro producto es fresco, nuestra cocina esmerada y estrictamente casera.\".",
+    "location": "Avenida Bonaventura Riberaygua N9 Local, Andorra la Vella AD500 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"12:00 - 23:00\"]}, {\"day\":\"Martes\",\"hours\":[\"12:00 - 23:00\"]}, {\"day\":\"Miércoles\",\"hours\":[\"12:00 - 23:00\"]}, {\"day\":\"Jueves\",\"hours\":[\"12:00 - 23:00\"]}, {\"day\":\"Viernes\",\"hours\":[\"12:00 - 23:00\"]}, {\"day\":\"Domingo\",\"hours\":[\"Cerrado\"]}",
     "features": [
-      "📶 Wi-Fi gratuito",
-      "🍽️ Protocolo contra el desperdicio de alimentos",
-      "🌳 Terraza/Jardín",
-      "🍩 Pastelería",
-      "🌞 Zona al aire libre"
-    ]
-  },
-  {
-    "id": "22",
-    "name": "La Casa de la Parrilla",
-    "rating": 4.3,
-    "user_ratings_total": 230,
-    "location": {
-      "lat": 40.418,
-      "lng": -3.7079
-    },
-    "country": "Sant Julià de Lòria",
-    "type": "🍖 Parrilla",
-    "price": 3,
-    "image": "/22.jpg",
-    "features": [
-      "🛋️ Salones Privados",
+      "♿ Acceso personas con discapacidad",
       "💳 Tarjetas de crédito",
-      "🌞 Zona al aire libre",
-      "🎉 Banquetes",
-      "🍽️ Protocolo contra el desperdicio de alimentos"
-    ]
-  },
-  {
-    "id": "23",
-    "name": "Café & Tapas La Solana",
-    "rating": 4.0,
-    "user_ratings_total": 180,
-    "location": {
-      "lat": 40.4169,
-      "lng": -3.708
-    },
-    "country": "Ordino",
-    "type": "🍽️ Francesa",
-    "price": 2,
-    "image": "/23.jpg",
-    "features": [
-      "📶 Wi-Fi gratuito",
-      "🥗 Especialidad en ensaladas",
+      "🐾 Se permiten mascotas",
+      "👥 Amigable para grupos grandes",
+      "👶 Menú para niños",
+      "📦 Recogida en el local",
+      "🖥️ Reservas online",
       "🌳 Terraza/Jardín",
-      "🍽️ Protocolo contra el desperdicio de alimentos",
-      "🎶 Música en vivo"
-    ]
+      "📶 Wi-Fi disponible"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
   },
   {
-    "id": "24",
-    "name": "El Tenedor del Chef",
-    "rating": 4.7,
-    "user_ratings_total": 300,
-    "location": {
-      "lat": 40.4179,
-      "lng": -3.7081
-    },
-    "country": "La Massana",
-    "type": "🍽️ De Autor",
-    "price": 3,
-    "image": "/24.jpg",
+    "id": "1046",
+    "name": "Refugi del Llac de Pessons",
+    "type": "🌿 Mediterráneo",
+    "image": "1046.jpg",
+    "rating": "4",
+    "country": "Encamp",
+    "sub_country": "Pas de la Casa",
+    "description": "30 años de alta cocina de montaña en uno de los lugares más idílicos del Principado. Platos de cocina tradicional, como la escudella o el trinxat, arroces de montaña y las mejores carnes a la brasa con ternera de wagyu.",
+    "location": "Grau Roig Ski Slopes Llac de Pessons, Grau Roig, Pas de la Casa AD200 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"9:00 - 17:00\"]}, {\"day\":\"Martes\",\"hours\":[\"9:00 - 17:00\"]}, {\"day\":\"Miércoles\",\"hours\":[\"9:00 - 17:00\"]}, {\"day\":\"Jueves\",\"hours\":[\"9:00 - 17:00\"]}, {\"day\":\"Viernes\",\"hours\":[\"9:00 - 17:00\"]}, {\"day\":\"Domingo\",\"hours\":[\"9:00 - 17:00\"]}",
     "features": [
-      "🅿️ Parking",
-      "🧑‍💻 Espacio coworking",
-      "🎶 Música en vivo",
-      "🍽️ Protocolo contra el desperdicio de alimentos",
-      "🛋️ Salones Privados"
-    ]
+      "👥 Amigable para grupos grandes",
+      "🖥️ Reservas online",
+      "🌳 Terraza/Jardín",
+      "📶 Wi-Fi disponible"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
+  },
+  {
+    "id": "1056",
+    "name": "SURF ARINSAL",
+    "type": "🥩 Carnes",
+    "image": "1056.jpg",
+    "rating": "4",
+    "country": "Ordino",
+    "sub_country": "Arinsal",
+    "description": "Argentina's restaurant Very nice ambience and amazin meal at the BBQ Very good client opinions from our clients First we have clients, next we have friends Hope your visit and tell us about Attention: We only accept cash payment.Televisión.",
+    "location": "Carretera General d'Arinsal, Arinsal AD400 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"12:00 - 23:45\"]}, {\"day\":\"Martes\",\"hours\":[\"12:00 - 23:45\"]}, {\"day\":\"Miércoles\",\"hours\":[\"12:00 - 23:45\"]}, {\"day\":\"Jueves\",\"hours\":[\"12:00 - 23:45\"]}, {\"day\":\"Viernes\",\"hours\":[\"12:00 - 23:45\"]}, {\"day\":\"Domingo\",\"hours\":[\"12:00 - 23:45\"]}",
+    "features": [
+      "♿ Acceso personas con discapacidad",
+      "🅿️ Parking gratis",
+      "👥 Amigable para grupos grandes",
+      "📦 Recogida en el local",
+      "🖥️ Reservas online",
+      "🌳 Terraza/Jardín",
+      "📶 Wi-Fi disponible"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
+  },
+  {
+    "id": "1006",
+    "name": "Cort de Popaire",
+    "type": "🌎 Internacional",
+    "image": "1006.jpg",
+    "rating": "4,5",
+    "country": "Canillo",
+    "sub_country": "Soldeu",
+    "description": "Borda tradicional Andorrana. Cocina elaborada y carnes a la parrilla. Entorno único y acogedor.",
+    "location": "Plaça del Poble, Soldeu AD100 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"19:00 - 22:30\"]}, {\"day\":\"Martes\",\"hours\":[\"19:00 - 22:30\"]}, {\"day\":\"Miércoles\",\"hours\":[\"19:00 - 22:30\"]}, {\"day\":\"Jueves\",\"hours\":[\"19:00 - 22:30\"]}, {\"day\":\"Viernes\",\"hours\":[\"19:00 - 22:30\"]}, {\"day\":\"Domingo\",\"hours\":[\"19:00 - 22:30\"]}",
+    "features": [
+      "💳 Tarjetas de crédito",
+      "🅿️ Parking gratis",
+      "👥 Amigable para grupos grandes",
+      "🖥️ Reservas online",
+      "🌳 Terraza/Jardín"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
+  },
+  {
+    "id": "1169",
+    "name": "Bronze Age Fondue Restaurant",
+    "type": "🍜 Chino",
+    "image": "1169.jpg",
+    "rating": "4,5",
+    "country": "Andorra la Vella",
+    "sub_country": "Andorra la Vella",
+    "description": "Bronze Age Fondue es un restaurante especializado en cocina tradicional china. La olla de cobre de Beijing, China tiene una historia de miles de años. Se caracteriza por cocinar mientras hierve, poner ingredientes frescos como carne de res, ternera, verduras, champiñones y productos de soya en una olla caliente, hervir con una base de sopa y sazonar con salsa de sésamo o mantequilla de maní.",
+    "location": "Cap del Carrer, 3, Andorra la Vella AD500 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"13:00 - 16:00\",\"20:00 - 23:30\"]}, {\"day\":\"Martes\",\"hours\":[\"13:00 - 16:00\",\"20:00 - 23:30\"]}, {\"day\":\"Miércoles\",\"hours\":[\"13:00 - 16:00\",\"20:00 - 23:30\"]}, {\"day\":\"Jueves\",\"hours\":[\"13:00 - 16:00\",\"20:00 - 23:30\"]}, {\"day\":\"Viernes\",\"hours\":[\"13:00 - 16:00\",\"20:00 - 23:30\"]}, {\"day\":\"Domingo\",\"hours\":[\"13:00 - 16:00\",\"20:00 - 23:30\"]}",
+    "features": [
+      "💳 Tarjetas de crédito",
+      "👥 Amigable para grupos grandes",
+      "🖥️ Reservas online",
+      "📶 Wi-Fi disponible"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
+  },
+  {
+    "id": "1037",
+    "name": "Ibaya",
+    "type": "🌿 Mediterráneo",
+    "image": "1037.jpg",
+    "rating": "4,5",
+    "country": "Canillo",
+    "sub_country": "Soldeu",
+    "description": "Creative cuisine restaurant of Francis Paniego awarded by 2 Michelin stars at his restaurant in La Rioja. Two complete tasting menus of Ezcaray roots, La Rioja. Taste our trompe l'oeil wine and the world best cheese cake. Located at Sport Hotel Hermitage & Spa, just closed during spring season as the hotel is closed as well.Tarjetas de regalo disponibles.",
+    "location": "S/N Carretera General 2 - Tram De Soldeu Sport Hotel Hermitage & Spa, Soldeu AD100 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"Cerrado\"]}, {\"day\":\"Martes\",\"hours\":[\"19:30 - 23:00\"]}, {\"day\":\"Miércoles\",\"hours\":[\"19:30 - 23:00\"]}, {\"day\":\"Jueves\",\"hours\":[\"19:30 - 23:00\"]}, {\"day\":\"Viernes\",\"hours\":[\"19:30 - 23:00\"]}, {\"day\":\"Domingo\",\"hours\":[\"Cerrado\"]}",
+    "features": [
+      "💳 Tarjetas de crédito",
+      "👥 Amigable para grupos grandes",
+      "🖥️ Reservas online",
+      "📶 Wi-Fi disponible"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
+  },
+  {
+    "id": "1076",
+    "name": "Pizzeria Angelo",
+    "type": "🍝 Italiano",
+    "image": "1076.jpg",
+    "rating": "4",
+    "country": "Escaldes-Engordany",
+    "sub_country": "Escaldes-Engordany",
+    "description": "Creiem que en aquesta vida es poden fer les coses de diferents maneres i la nostra es cuidar dels nostres clients. Una cuina especialitzada que sap realcar el sabor de la pizza, de la pasta fresca i les nostres carns amb els millors ingredients naturals.",
+    "location": "22 Avinguda De Sant Antoni, La Massana AD400 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"13:00 - 15:30\",\"20:00 - 23:00\"]}, {\"day\":\"Martes\",\"hours\":[\"13:00 - 15:30\",\"20:00 - 23:00\"]}, {\"day\":\"Miércoles\",\"hours\":[\"13:00 - 15:30\",\"20:00 - 23:00\"]}, {\"day\":\"Jueves\",\"hours\":[\"13:00 - 15:30\",\"20:00 - 23:00\"]}, {\"day\":\"Viernes\",\"hours\":[\"13:00 - 15:30\",\"20:00 - 23:00\"]}, {\"day\":\"Domingo\",\"hours\":[\"13:00 - 15:30\",\"20:00 - 23:00\"]}",
+    "features": [
+      "💳 Tarjetas de crédito",
+      "👥 Amigable para grupos grandes",
+      "📦 Recogida en el local",
+      "🖥️ Reservas online",
+      "📶 Wi-Fi disponible"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
+  },
+  {
+    "id": "1065",
+    "name": "Restaurant Can Pere",
+    "type": "🌎 Internacional",
+    "image": "1065.jpg",
+    "rating": "5",
+    "country": "La Massana",
+    "sub_country": "Anyos",
+    "description": "Deliciosa comida casera, utilizando los mejores ingredientes. Platos interesantes e inusuales de todo el mundo servidos en un acogedor restaurante del pueblo con impresionantes vistas a las montañas.",
+    "location": "10, Crta.St.Cristofol, Anyos AD400 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"Cerrado\"]}, {\"day\":\"Martes\",\"hours\":[\"13:00 - 15:00\",\"20:00 - 23:00\"]}, {\"day\":\"Miércoles\",\"hours\":[\"13:00 - 15:00\",\"20:00 - 23:00\"]}, {\"day\":\"Jueves\",\"hours\":[\"13:00 - 15:00\",\"20:00 - 23:00\"]}, {\"day\":\"Viernes\",\"hours\":[\"13:00 - 15:00\",\"20:00 - 23:00\"]}, {\"day\":\"Domingo\",\"hours\":[\"13:00 - 15:00\"]}",
+    "features": [
+      "♿ Acceso personas con discapacidad",
+      "💳 Tarjetas de crédito",
+      "👥 Amigable para grupos grandes",
+      "🅿️ Parking gratis",
+      "🖥️ Reservas online",
+      "📶 Wi-Fi disponible"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
   }
 ]

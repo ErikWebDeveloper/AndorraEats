@@ -5,6 +5,7 @@ import { useParams } from "react-router";
 import RestaurantCard from "../components/RestaurantCard";
 import Features from "../components/Features";
 import Recommended from "../components/Recommended";
+import Schedule from "../components/Schedule";
 import Footer from "../components/Footer";
 
 function RestaurantPage() {
@@ -53,6 +54,7 @@ function RestaurantPage() {
     <>
       <RestaurantCard restaurant={restaurant} />
       <Features restaurant={restaurant} />
+      <Schedule restaurant={restaurant} />
       <Recommended restaurant={restaurant} />
       <Footer />
     </>

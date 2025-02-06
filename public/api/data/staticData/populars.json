@@ -1,212 +1,432 @@
 [
   {
-    "id": "1",
-    "name": "Restaurante El Sabor Especial",
-    "rating": 4.8,
-    "user_ratings_total": 325,
-    "location": {
-      "lat": 40.416775,
-      "lng": -3.70379
-    },
-    "country": "Andorra la Vella",
-    "type": "🍕 Pizza",
-    "price": 1,
-    "image": "/1.jpg",
+    "id": "1000",
+    "name": "Los Calvi",
+    "type": "🍽️ Francés",
+    "image": "1000.jpg",
+    "rating": "5",
+    "country": "Encamp",
+    "sub_country": "Pas de la Casa",
+    "description": "Restaurante tradicional á la parilla que sirve una selección de platos mediterráneos, especialidades portuguesas y mucho más.",
+    "location": "21 Carrer Major Subsol, Pas de la Casa AD200 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"11:30 - 15:00\",\"19:00 - 22:00\"]}, {\"day\":\"Martes\",\"hours\":[\"11:30 - 15:00\",\"19:00 - 22:00\"]}, {\"day\":\"Miércoles\",\"hours\":[\"11:30 - 15:00\",\"19:00 - 22:00\"]}, {\"day\":\"Jueves\",\"hours\":[\"Cerrado\"]}, {\"day\":\"Viernes\",\"hours\":[\"11:30 - 15:00\",\"19:00 - 22:00\"]}, {\"day\":\"Domingo\",\"hours\":[\"11:30 - 15:00\",\"19:00 - 22:00\"]}",
     "features": [
-      "🐾 Aceptan animales",
-      "📶 Wi-Fi gratuito",
-      "🏙️ Céntrico",
-      "🍽️ Protocolo contra el desperdicio de alimentos",
-      "🅿️ Parking"
-    ]
-  },
-  {
-    "id": "2",
-    "name": "La Cocina Mediterránea",
-    "rating": 4.5,
-    "user_ratings_total": 204,
-    "location": {
-      "lat": 40.4172,
-      "lng": -3.70416
-    },
-    "country": "Escaldes-Engordany",
-    "type": "🌍 Mediterráneo",
-    "price": 2,
-    "image": "/2.jpg",
-    "features": [
-      "♿ Acceso personas con discapacidad",
-      "📶 Wi-Fi gratuito",
-      "🥗 Especialidad en ensaladas",
-      "🌞 Zona al aire libre",
-      "🎶 Música en vivo"
-    ]
-  },
-  {
-    "id": "3",
-    "name": "Restaurante El Buen Kebab",
-    "rating": 4.2,
-    "user_ratings_total": 98,
-    "location": {
-      "lat": 40.4189,
-      "lng": -3.7058
-    },
-    "country": "Sant Julià de Lòria",
-    "type": "🥙 Kebab",
-    "price": 3,
-    "image": "/3.jpg",
-    "features": [
-      "🛵 Servicio a domicilio",
-      "🛋️ Salones Privados",
-      "🎉 Banquetes",
-      "🌳 Terraza/Jardín",
-      "🚚 Entrega a domicilio"
-    ]
-  },
-  {
-    "id": "4",
-    "name": "Café Nueva York",
-    "rating": 4.7,
-    "user_ratings_total": 150,
-    "location": {
-      "lat": 40.41915,
-      "lng": -3.7062
-    },
-    "country": "Ordino",
-    "type": "🍔 New Yorkina",
-    "price": 2,
-    "image": "/4.jpg",
-    "features": [
-      "📶 Wi-Fi gratuito",
-      "🌅 Vista panorámica",
-      "🌞 Zona al aire libre",
       "💳 Tarjetas de crédito",
-      "🥗 Especialidad en ensaladas"
-    ]
+      "🐾 Se permiten mascotas",
+      "👥 Amigable para grupos grandes",
+      "👶 Menú para niños",
+      "🖥️ Reservas online"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
   },
   {
-    "id": "5",
-    "name": "La Casa del Marisco",
-    "rating": 4.3,
-    "user_ratings_total": 270,
-    "location": {
-      "lat": 40.417,
-      "lng": -3.7025
-    },
+    "id": "1001",
+    "name": "Malandra",
+    "type": "🥩 Carnes",
+    "image": "1001.jpg",
+    "rating": "5",
     "country": "La Massana",
-    "type": "🦞 Mariscos",
-    "price": 4,
-    "image": "/5.jpg",
+    "sub_country": "La Massana",
+    "description": "",
+    "location": "Carrer Peu del Carrer, La Massana AD400 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"Cerrado\"]}, {\"day\":\"Martes\",\"hours\":[\"Cerrado\"]}, {\"day\":\"Miércoles\",\"hours\":[\"Cerrado\"]}, {\"day\":\"Jueves\",\"hours\":[\"13:00 - 15:00\",\"19:00 - 23:30\"]}, {\"day\":\"Viernes\",\"hours\":[\"13:00 - 15:00\",\"19:00 - 23:30\"]}, {\"day\":\"Domingo\",\"hours\":[\"13:00 - 15:00\",\"19:00 - 22:00\"]}",
     "features": [
-      "🅿️ Parking",
-      "🌳 Terraza/Jardín",
-      "🎉 Banquetes",
-      "🚚 Entrega a domicilio",
-      "🐾 Aceptan animales"
-    ]
+      "💳 Tarjetas de crédito",
+      "👥 Amigable para grupos grandes",
+      "🖥️ Reservas online"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
   },
   {
-    "id": "6",
-    "name": "Pizzería La Dolce Vita",
-    "rating": 4.6,
-    "user_ratings_total": 180,
-    "location": {
-      "lat": 40.415,
-      "lng": -3.707
-    },
+    "id": "1003",
+    "name": "Borda Vella",
+    "type": "🌿 Mediterráneo",
+    "image": "1003.jpg",
+    "rating": "5",
+    "country": "Encamp",
+    "sub_country": "Encamp",
+    "description": "No se permite la entrada de animales de compañía.",
+    "location": "22, Avinguda Princep Benlloch, Encamp AD200 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"Cerrado\"]}, {\"day\":\"Martes\",\"hours\":[\"Cerrado\"]}, {\"day\":\"Miércoles\",\"hours\":[\"13:00 - 15:00\",\"20:00 - 22:00\"]}, {\"day\":\"Jueves\",\"hours\":[\"13:00 - 15:00\",\"20:00 - 22:00\"]}, {\"day\":\"Viernes\",\"hours\":[\"13:00 - 15:00\",\"20:00 - 22:00\"]}, {\"day\":\"Domingo\",\"hours\":[\"Cerrado\"]}",
+    "features": [
+      "💳 Tarjetas de crédito",
+      "🅿️ Parking gratis",
+      "👥 Amigable para grupos grandes",
+      "🖥️ Reservas online",
+      "🌳 Terraza/Jardín",
+      "📶 Wi-Fi disponible"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
+  },
+  {
+    "id": "1017",
+    "name": "Restaurant Eric Marty",
+    "type": "🍽️ Francés",
+    "image": "1017.jpg",
+    "rating": "5",
     "country": "Andorra la Vella",
-    "type": "🍕 Pizza",
-    "price": 1,
-    "image": "/6.jpg",
+    "sub_country": "Andorra la Vella",
+    "description": "",
+    "location": "6 Carrer Mossen Tremosa, Andorra la Vella AD500 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"Cerrado\"]}, {\"day\":\"Martes\",\"hours\":[\"13:00 - 14:30\",\"20:00 - 22:00\"]}, {\"day\":\"Miércoles\",\"hours\":[\"13:00 - 14:30\",\"20:00 - 22:00\"]}, {\"day\":\"Jueves\",\"hours\":[\"13:00 - 14:30\",\"20:00 - 22:00\"]}, {\"day\":\"Viernes\",\"hours\":[\"13:00 - 14:30\",\"20:00 - 22:00\"]}, {\"day\":\"Domingo\",\"hours\":[\"Cerrado\"]}",
     "features": [
-      "🐾 Aceptan animales",
-      "🌳 Terraza/Jardín",
-      "📶 Wi-Fi gratuito",
-      "🍽️ Protocolo contra el desperdicio de alimentos",
-      "💳 Tarjetas de crédito"
-    ]
+      "💳 Tarjetas de crédito",
+      "👥 Amigable para grupos grandes",
+      "🖥️ Reservas online"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
   },
   {
-    "id": "7",
-    "name": "Restaurante El Buen Gusto",
-    "rating": 4.4,
-    "user_ratings_total": 210,
-    "location": {
-      "lat": 40.4177,
-      "lng": -3.7011
-    },
-    "country": "Escaldes-Engordany",
-    "type": "🍝 Italiano",
-    "price": 2,
-    "image": "/7.jpg",
+    "id": "1028",
+    "name": "Restaurante Roc Meler Canillo",
+    "type": "🌎 Internacional",
+    "image": "1028.jpg",
+    "rating": "5",
+    "country": "Canillo",
+    "sub_country": "Canillo",
+    "description": "",
+    "location": "Urbanización La Ribagrossa 13, Canillo AD100 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"9:00 - 11:30\",\"19:30 - 23:30\"]}, {\"day\":\"Martes\",\"hours\":[\"9:00 - 11:30\",\"19:30 - 23:30\"]}, {\"day\":\"Miércoles\",\"hours\":[\"9:00 - 11:30\",\"19:30 - 23:30\"]}, {\"day\":\"Jueves\",\"hours\":[\"9:00 - 11:30\",\"19:30 - 23:30\"]}, {\"day\":\"Viernes\",\"hours\":[\"9:00 - 11:30\",\"19:30 - 23:30\"]}, {\"day\":\"Domingo\",\"hours\":[\"9:00 - 11:30\",\"19:30 - 23:30\"]}",
+    "features": [
+      "👥 Amigable para grupos grandes",
+      "🖥️ Reservas online"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
+  },
+  {
+    "id": "1047",
+    "name": "Era de la Cort",
+    "type": "🌮 Mexicano",
+    "image": "1047.jpg",
+    "rating": "5",
+    "country": "Canillo",
+    "sub_country": "Soldeu",
+    "description": "We are an Asian fusion \"tapas\" restaurant in the centre of Soldeu, Andorra. Located on the upper level of the already established CORT DE POPAIRE. Come and experience a new style in cuisine offer in Soldeu Village.",
+    "location": "Placa del Poble, Soldeu AD100 Andorra",
+    "schedule": "",
+    "features": [
+      "👥 Amigable para grupos grandes",
+      "🖥️ Reservas online"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
+  },
+  {
+    "id": "1065",
+    "name": "Restaurant Can Pere",
+    "type": "🌎 Internacional",
+    "image": "1065.jpg",
+    "rating": "5",
+    "country": "La Massana",
+    "sub_country": "Anyos",
+    "description": "Deliciosa comida casera, utilizando los mejores ingredientes. Platos interesantes e inusuales de todo el mundo servidos en un acogedor restaurante del pueblo con impresionantes vistas a las montañas.",
+    "location": "10, Crta.St.Cristofol, Anyos AD400 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"Cerrado\"]}, {\"day\":\"Martes\",\"hours\":[\"13:00 - 15:00\",\"20:00 - 23:00\"]}, {\"day\":\"Miércoles\",\"hours\":[\"13:00 - 15:00\",\"20:00 - 23:00\"]}, {\"day\":\"Jueves\",\"hours\":[\"13:00 - 15:00\",\"20:00 - 23:00\"]}, {\"day\":\"Viernes\",\"hours\":[\"13:00 - 15:00\",\"20:00 - 23:00\"]}, {\"day\":\"Domingo\",\"hours\":[\"13:00 - 15:00\"]}",
     "features": [
       "♿ Acceso personas con discapacidad",
-      "🌞 Zona al aire libre",
-      "📶 Wi-Fi gratuito",
-      "🍽️ Protocolo contra el desperdicio de alimentos",
-      "🥗 Especialidad en ensaladas"
-    ]
+      "💳 Tarjetas de crédito",
+      "👥 Amigable para grupos grandes",
+      "🅿️ Parking gratis",
+      "🖥️ Reservas online",
+      "📶 Wi-Fi disponible"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
   },
   {
-    "id": "8",
-    "name": "Taco Loco",
-    "rating": 4.0,
-    "user_ratings_total": 100,
-    "location": {
-      "lat": 40.419,
-      "lng": -3.7055
-    },
+    "id": "1072",
+    "name": "La Familia",
+    "type": "🌿 Mediterráneo",
+    "image": "1072.jpg",
+    "rating": "5",
+    "country": "Encamp",
+    "sub_country": "Pas de la Casa",
+    "description": "",
+    "location": "",
+    "schedule": "",
+    "features": [
+      "👥 Amigable para grupos grandes",
+      "🖥️ Reservas online"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
+  },
+  {
+    "id": "1094",
+    "name": "Borda Xicoies",
+    "type": "",
+    "image": "1094.jpg",
+    "rating": "5",
     "country": "La Massana",
-    "type": "🌮 Mexicano",
-    "price": 2,
-    "image": "/8.jpg",
+    "sub_country": "La Massana",
+    "description": "",
+    "location": "51 Carretera D'erts, La Massana AD400 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"13:00 - 16:00\"]}, {\"day\":\"Martes\",\"hours\":[\"Cerrado\"]}, {\"day\":\"Miércoles\",\"hours\":[\"13:00 - 16:00\"]}, {\"day\":\"Jueves\",\"hours\":[\"13:00 - 16:00\"]}, {\"day\":\"Viernes\",\"hours\":[\"13:00 - 16:00\",\"20:00 - 22:30\"]}, {\"day\":\"Domingo\",\"hours\":[\"13:00 - 16:00\"]}",
     "features": [
-      "🍽️ Protocolo contra el desperdicio de alimentos",
-      "🌳 Terraza/Jardín",
-      "🛵 Servicio a domicilio",
-      "🌞 Zona al aire libre",
-      "🎶 Música en vivo"
-    ]
+      "👥 Amigable para grupos grandes",
+      "🖥️ Reservas online"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
   },
   {
-    "id": "9",
-    "name": "Sushi Master",
-    "rating": 4.9,
-    "user_ratings_total": 300,
-    "location": {
-      "lat": 40.4163,
-      "lng": -3.7049
-    },
+    "id": "1102",
+    "name": "Alta Taberna Aires Gourmet",
+    "type": "🍤 Mariscos",
+    "image": "1102.jpg",
+    "rating": "5",
+    "country": "Andorra la Vella",
+    "sub_country": "Andorra la Vella",
+    "description": "\"Nuestra propuesta es una mezcla de platos típicos tradicionales, con la intención de trasladarnos a través del conjunto de aromas, a rincones únicos. Instalaciones modernas y acogedoras donde te sentirás como en casa. Nuestro producto es fresco, nuestra cocina esmerada y estrictamente casera.\".",
+    "location": "Avenida Bonaventura Riberaygua N9 Local, Andorra la Vella AD500 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"12:00 - 23:00\"]}, {\"day\":\"Martes\",\"hours\":[\"12:00 - 23:00\"]}, {\"day\":\"Miércoles\",\"hours\":[\"12:00 - 23:00\"]}, {\"day\":\"Jueves\",\"hours\":[\"12:00 - 23:00\"]}, {\"day\":\"Viernes\",\"hours\":[\"12:00 - 23:00\"]}, {\"day\":\"Domingo\",\"hours\":[\"Cerrado\"]}",
+    "features": [
+      "♿ Acceso personas con discapacidad",
+      "💳 Tarjetas de crédito",
+      "🐾 Se permiten mascotas",
+      "👥 Amigable para grupos grandes",
+      "👶 Menú para niños",
+      "📦 Recogida en el local",
+      "🖥️ Reservas online",
+      "🌳 Terraza/Jardín",
+      "📶 Wi-Fi disponible"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
+  },
+  {
+    "id": "1104",
+    "name": "MuaKaBo",
+    "type": "🌿 Mediterráneo",
+    "image": "1104.jpg",
+    "rating": "5",
+    "country": "Andorra la Vella",
+    "sub_country": "Andorra la Vella",
+    "description": "The MuakaBo, is the \"NEW brother\" located in the heart of the old quarter of Andorra the old, which the owners Marc Simon and Joan Marc Codina have given to the MiraKbe; a new restaurant to the cultural epicenter and spearhead of the most historic Andorra.",
+    "location": "Placa Monjó Num. 3, Andorra la Vella AD500 Andorra",
+    "schedule": "",
+    "features": [
+      "💳 Tarjetas de crédito",
+      "👥 Amigable para grupos grandes",
+      "🖥️ Reservas online"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
+  },
+  {
+    "id": "1105",
+    "name": "El Traguet I Mes",
+    "type": "🍺 Pub",
+    "image": "1105.jpg",
+    "rating": "5",
     "country": "Ordino",
+    "sub_country": "La Cortinada",
+    "description": "",
+    "location": "Av. De La Cortinada, 15, La Cortinada AD300 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"Cerrado\"]}, {\"day\":\"Martes\",\"hours\":[\"12:00 - 16:00\",\"19:00 - 23:00\"]}, {\"day\":\"Miércoles\",\"hours\":[\"12:00 - 16:00\",\"19:00 - 23:00\"]}, {\"day\":\"Jueves\",\"hours\":[\"12:00 - 16:00\",\"19:00 - 23:00\"]}, {\"day\":\"Viernes\",\"hours\":[\"12:00 - 16:00\",\"19:00 - 23:00\"]}, {\"day\":\"Domingo\",\"hours\":[\"12:00 - 16:00\",\"19:00 - 23:00\"]}",
+    "features": [
+      "💳 Tarjetas de crédito",
+      "👥 Amigable para grupos grandes",
+      "📦 Recogida en el local",
+      "🖥️ Reservas online",
+      "🛋️ Salones Privados",
+      "🌳 Terraza/Jardín"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
+  },
+  {
+    "id": "1106",
+    "name": "Marisqueria GRESHA ENCAMP",
+    "type": "🍽️ Francés",
+    "image": "1106.jpg",
+    "rating": "5",
+    "country": "Encamp",
+    "sub_country": "Encamp",
+    "description": "Restaurant GastroBar Specialitades de Marisco, Ostres, Peix i Caviar.. Carne rara i cocina casa Menu Tapas i Menu del xef.",
+    "location": "46H Avinguda de Joan Marti, Encamp AD200 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"17:00 - 22:00\"]}, {\"day\":\"Martes\",\"hours\":[\"17:00 - 22:30\"]}, {\"day\":\"Miércoles\",\"hours\":[\"17:00 - 22:30\"]}, {\"day\":\"Jueves\",\"hours\":[\"17:00 - 22:30\"]}, {\"day\":\"Viernes\",\"hours\":[\"17:00 - 23:00\"]}, {\"day\":\"Domingo\",\"hours\":[\"Cerrado\"]}",
+    "features": [
+      "👥 Amigable para grupos grandes",
+      "🖥️ Reservas online"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
+  },
+  {
+    "id": "1127",
+    "name": "Maison Carne Andorra",
+    "type": "🥩 Carnes",
+    "image": "1127.jpg",
+    "rating": "5",
+    "country": "Andorra la Vella",
+    "sub_country": "Andorra la Vella",
+    "description": "",
+    "location": "",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"Cerrado\"]}, {\"day\":\"Martes\",\"hours\":[\"12:30 - 16:00\",\"19:30 - 23:00\"]}, {\"day\":\"Miércoles\",\"hours\":[\"12:30 - 16:00\",\"19:30 - 23:00\"]}, {\"day\":\"Jueves\",\"hours\":[\"12:30 - 16:00\",\"19:30 - 23:00\"]}, {\"day\":\"Viernes\",\"hours\":[\"12:30 - 16:00\",\"19:30 - 23:00\"]}, {\"day\":\"Domingo\",\"hours\":[\"12:30 - 16:00\"]}",
+    "features": [],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
+  },
+  {
+    "id": "1128",
+    "name": "Wakatai",
     "type": "🍣 Japonés",
-    "price": 3,
-    "image": "/9.jpg",
+    "image": "1128.jpg",
+    "rating": "5",
+    "country": "Andorra la Vella",
+    "sub_country": "Andorra la Vella",
+    "description": "RESTAURANTE DE COCINA NIKKEI. SABORES DE JAPON Y PERU.",
+    "location": "Carrer Làlzinaret Numero 6, Andorra La Vella Calle Paralela Al Centro De Salud De La Plaza De Las Arcadas, Andorra la Vella AD500 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"Cerrado\"]}, {\"day\":\"Martes\",\"hours\":[\"13:00 - 22:30\"]}, {\"day\":\"Miércoles\",\"hours\":[\"13:00 - 22:30\"]}, {\"day\":\"Jueves\",\"hours\":[\"13:00 - 22:30\"]}, {\"day\":\"Viernes\",\"hours\":[\"13:00 - 23:00\"]}, {\"day\":\"Domingo\",\"hours\":[\"13:00 - 16:00\"]}",
     "features": [
-      "🐾 Aceptan animales",
-      "🍽️ Protocolo contra el desperdicio de alimentos",
-      "📶 Wi-Fi gratuito",
-      "🌞 Zona al aire libre",
-      "💳 Tarjetas de crédito"
-    ]
+      "👥 Amigable para grupos grandes",
+      "🖥️ Reservas online"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
   },
   {
-    "id": "23",
-    "name": "Café & Tapas La Solana",
-    "rating": 4.0,
-    "user_ratings_total": 180,
-    "location": {
-      "lat": 40.4169,
-      "lng": -3.708
-    },
-    "country": "Ordino",
-    "type": "🍽️ Francesa",
-    "price": 2,
-    "image": "/23.jpg",
+    "id": "1159",
+    "name": "La Llotja",
+    "type": "🍤 Mariscos",
+    "image": "1159.jpg",
+    "rating": "5",
+    "country": "Escaldes-Engordany",
+    "sub_country": "Escaldes-Engordany",
+    "description": "El concepto de nuestro restaurante con degustación de pescados y mariscos frescos. Puedes elegir a tu gusto y cocinaremos como quieras al momento. También tenemos una carta de vinos que cada vino es apto para mariscos o pescados, Esperando por ti en La llotja.",
+    "location": "Carrer Santa Anna Local 1, Escaldes-Engordany AD700 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"Cerrado\"]}, {\"day\":\"Martes\",\"hours\":[\"12:00 - 16:00\",\"19:00 - 22:00\"]}, {\"day\":\"Miércoles\",\"hours\":[\"12:00 - 16:00\",\"19:00 - 22:00\"]}, {\"day\":\"Jueves\",\"hours\":[\"12:00 - 16:00\",\"19:00 - 22:00\"]}, {\"day\":\"Viernes\",\"hours\":[\"12:00 - 16:00\",\"19:00 - 23:00\"]}, {\"day\":\"Domingo\",\"hours\":[\"Cerrado\"]}",
     "features": [
-      "📶 Wi-Fi gratuito",
-      "🥗 Especialidad en ensaladas",
+      "👥 Amigable para grupos grandes",
+      "👶 Menú para niños",
+      "🖥️ Reservas online"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
+  },
+  {
+    "id": "1162",
+    "name": "Mozza",
+    "type": "🍝 Italiano",
+    "image": "1162.jpg",
+    "rating": "5",
+    "country": "Andorra la Vella",
+    "sub_country": "Andorra la Vella",
+    "description": "",
+    "location": "11 Pere D'urg, Andorra la Vella AD500 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"Cerrado\"]}, {\"day\":\"Martes\",\"hours\":[\"13:00 - 15:30\",\"20:00 - 23:00\"]}, {\"day\":\"Miércoles\",\"hours\":[\"13:00 - 15:30\",\"20:00 - 23:00\"]}, {\"day\":\"Jueves\",\"hours\":[\"13:00 - 15:30\",\"20:00 - 23:00\"]}, {\"day\":\"Viernes\",\"hours\":[\"13:00 - 15:30\",\"20:00 - 23:00\"]}, {\"day\":\"Domingo\",\"hours\":[\"Cerrado\"]}",
+    "features": [
+      "👥 Amigable para grupos grandes",
+      "🖥️ Reservas online"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
+  },
+  {
+    "id": "1175",
+    "name": "Atelier Burgues",
+    "type": "🌿 Mediterráneo",
+    "image": "1175.jpg",
+    "rating": "5",
+    "country": "Escaldes-Engordany",
+    "sub_country": "Escaldes-Engordany",
+    "description": "Restaurante.",
+    "location": "Avda Carlemany 28 A 20 metros del museo Thyssen, Escaldes-Engordany AD700 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"12:30 - 15:30\"]}, {\"day\":\"Martes\",\"hours\":[\"12:30 - 15:30\"]}, {\"day\":\"Miércoles\",\"hours\":[\"Cerrado\"]}, {\"day\":\"Jueves\",\"hours\":[\"12:30 - 15:30\",\"20:00 - 23:00\"]}, {\"day\":\"Viernes\",\"hours\":[\"12:30 - 15:30\",\"20:00 - 23:00\"]}, {\"day\":\"Domingo\",\"hours\":[\"13:00 - 16:00\"]}",
+    "features": [
+      "💳 Tarjetas de crédito",
+      "🐾 Se permiten mascotas",
+      "📦 Recogida en el local",
+      "🖥️ Reservas online",
       "🌳 Terraza/Jardín",
-      "🍽️ Protocolo contra el desperdicio de alimentos",
-      "🎶 Música en vivo"
-    ]
+      "📶 Wi-Fi disponible"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
+  },
+  {
+    "id": "1178",
+    "name": "Il Panino",
+    "type": "🍝 Italiano",
+    "image": "1178.jpg",
+    "rating": "5",
+    "country": "Escaldes-Engordany",
+    "sub_country": "Escaldes-Engordany",
+    "description": "Il Panino - Auténticos Paninos Italianos En Il Panino llevamos la esencia de Italia a tu mesa. Ofrecemos paninos artesanos elaborados con pan recién horneado e ingredientes frescos de calidad italiana como mozzarella de búfala, mortadela de pistacho, pesto genovés y mucho más. Todo se prepara en el momento, garantizando sabor auténtico y experiencia única. Ideal para almuerzos rápidos, encuentros con amigos o para llevar. Ven a disfrutar del verdadero gusto de Italia en cada mordisco. ¡Te esperamos! ✨.",
+    "location": "8 Plaça Coprínceps Hotel Tudel, Escaldes-Engordany AD700 Andorra",
+    "schedule": "{\"day\":\"Lunes\",\"hours\":[\"12:30 - 15:30\"]}, {\"day\":\"Martes\",\"hours\":[\"12:30 - 15:30\",\"17:00 - 20:00\"]}, {\"day\":\"Miércoles\",\"hours\":[\"12:30 - 15:30\",\"17:00 - 20:00\"]}, {\"day\":\"Jueves\",\"hours\":[\"12:30 - 15:30\",\"17:00 - 20:00\"]}, {\"day\":\"Viernes\",\"hours\":[\"12:30 - 15:30\",\"17:00 - 19:00\"]}, {\"day\":\"Domingo\",\"hours\":[\"Cerrado\"]}",
+    "features": [
+      "♿ Acceso personas con discapacidad",
+      "💳 Tarjetas de crédito",
+      "🐾 Se permiten mascotas",
+      "📦 Recogida en el local",
+      "🌳 Terraza/Jardín",
+      "📶 Wi-Fi disponible"
+    ],
+    "link": null,
+    "recommended_dishes": null,
+    "phone": null,
+    "instagram": null,
+    "trusted": false
   }
 ]
