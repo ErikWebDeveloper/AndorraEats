@@ -77,7 +77,7 @@ const SearchIcon = () => {
 const CloseIcon = () => {
   const navigate = useNavigate();
   const handleClose = () => {
-    navigate("/explore");
+    navigate(`${import.meta.env.VITE_HOME_URL}`);
   };
   return (
     <button

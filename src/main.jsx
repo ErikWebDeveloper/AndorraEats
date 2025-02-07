@@ -27,11 +27,10 @@ createRoot(document.getElementById("root")).render(
     <StaticDataProvider>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<LandingPage />} />
 
           <Route element={<AppLayout />}>
             <Route path="/search" element={<SearchPage />} />
-            <Route path="/explore" element={<ExplorePage />} />
+            <Route path="/" element={<ExplorePage />} />
             <Route path="/explore/type/:type" element={<ResultsTypePage />} />
             <Route
               path="/explore/country/:country"
@@ -44,6 +43,7 @@ createRoot(document.getElementById("root")).render(
             element={<RestaurantPage />}
           />
 
+          <Route path="/product" element={<LandingPage />} />
           <Route path="/faqs" element={<FAQsPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/terms" element={<TermsAndPolicyPage />} />
