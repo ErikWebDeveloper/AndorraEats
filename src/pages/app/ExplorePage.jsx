@@ -66,6 +66,7 @@ const Hero = () => {
                     <RestaurantCardSingle
                       restaurant={restaurant}
                       cssClass="border-0"
+                      location={"/"}
                     />
                   </SwiperSlide>
                 ))}
@@ -271,7 +272,7 @@ const Popular = () => {
                       key={restaurant.id}
                       className="col-12 col-md-6 col-lg-4 col-xl-3"
                     >
-                      <RestaurantCardSingle restaurant={restaurant} />
+                      <RestaurantCardSingle restaurant={restaurant} location={"/"}/>
                     </div>
                   ))}
                 </>

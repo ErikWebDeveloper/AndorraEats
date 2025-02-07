@@ -15,7 +15,6 @@ function RestaurantPage() {
   const [error, setError] = useState(false);
   const { restaurantId } = useParams();
 
-
   useEffect(() => {
     const fetchRestaurants = async () => {
       try {
@@ -54,7 +53,7 @@ function RestaurantPage() {
   }
   return (
     <>
-      {state?.from && <BackButton returnPath={state.from}/>}
+      {state?.from && <BackButton returnPath={state.from} />}
       <RestaurantCard restaurant={restaurant} />
       <Features restaurant={restaurant} />
       <Schedule restaurant={restaurant} />
@@ -64,11 +63,30 @@ function RestaurantPage() {
   );
 }
 
-const BackButton = ({returnPath}) => {
+const BackButton = ({ returnPath }) => {
   return (
     <nav className="position-absolute p-3">
-      <Link role="button" className="btn btn-warning opacity-75 rounded-5" to={returnPath}>
-        ⬅️
+      <Link
+        role="button"
+        to={returnPath}
+        className="btn btn-light btn-sm shadow-lg d-flex align-items-center justify-content-center rounded-circle"
+        style={{
+          aspectRatio: "1/1",
+        }}
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          className="bi bi-arrow-left"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fillRule="evenodd"
+            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"
+          />
+        </svg>
       </Link>
     </nav>
   );

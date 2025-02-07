@@ -7,7 +7,6 @@ import Section from "../../layouts/components/SectionLayout";
 
 const SearchPage = () => {
   const { index, loading } = useStaticData();
-
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredResults, setFilteredResults] = useState([]);
 
@@ -27,10 +26,14 @@ const SearchPage = () => {
   }, [searchTerm, index, loading]);
 
   return (
-    <Section id="search-page" ariaLabel="Buscar por nombre de restaurantes." className="py-5">
+    <main
+      id="search-page"
+      aria-label="Buscar por nombre de restaurantes."
+      className="py-5"
+    >
       <SearchInput setSearchTerm={setSearchTerm} />
       <ResultsContainer results={filteredResults} />
-    </Section>
+    </main>
   );
 };
 
@@ -93,6 +96,7 @@ const ResultCard = ({ result }) => {
           className="text-decoration-none text-black flex-fill"
           role="button"
           to={`/restaurant/${result.id}`}
+          state={{ from: "/search" }}
         >
           {result.name}
         </Link>
