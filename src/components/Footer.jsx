@@ -4,10 +4,7 @@ import { useTranslation } from "react-i18next";
 const Footer = () => {
   const { t } = useTranslation();
   return (
-    <footer
-      className="text-light pt-4 bg-dark"
-      
-    >
+    <footer className="text-light pt-4 bg-dark">
       <div className="container">
         <div className="row">
           {/* Sección de enlaces */}
@@ -26,7 +23,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="/terms" className="link text-decoration-none">
-                  {t("components.footer.about")}
+                  {t("components.footer.terms")}
                 </a>
               </li>
               <li>
@@ -57,12 +54,12 @@ const Footer = () => {
               <small>Instagram:</small>
             </p>
             <a
-              href="https://www.instagram.com/andorra.eats.app"
+              href={`${import.meta.env.VITE_INSTAGRAM_URL}`}
               target="_blank"
               rel="noopener noreferrer"
               className="text-warning text-decoration-none"
             >
-              @andorra.eats.app
+              {`${import.meta.env.VITE_INSTAGRAM}`}
             </a>
           </div>
 
@@ -71,6 +68,7 @@ const Footer = () => {
             <Link
               className="text-decoration-none fs-5"
               style={{ fontFamily: "gagalin-regular", lineHeight: "1" }}
+              to={`${import.meta.env.VITE_HOME_URL}`}
             >
               <span className="text-warning">Andorra</span>{" "}
               <span style={{ color: "#ff3131" }}>Eats</span>

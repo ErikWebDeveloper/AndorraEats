@@ -5,8 +5,6 @@ import { SwiperSlide } from "swiper/react";
 import { useTranslation } from "react-i18next";
 import { useStaticData } from "../../context/StaticDataContext";
 
-// Layouts
-import Section from "../../layouts/components/SectionLayout";
 
 // Components
 import {
