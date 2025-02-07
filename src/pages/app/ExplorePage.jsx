@@ -1,25 +1,30 @@
 import { useNavigate } from "react-router";
 import { SwiperSlide } from "swiper/react";
+
 // Hooks
 import { useTranslation } from "react-i18next";
-import { useStaticData } from "../context/StaticDataContext";
+import { useStaticData } from "../../context/StaticDataContext";
+
+// Layouts
+import Section from "../../layouts/components/SectionLayout";
+
 // Components
 import {
   SwiperCarousel,
   CarouselInfinite,
   CarouselStatic,
-} from "../components/SwiperCarousel";
-import RestaurantCardSingle from "../components/RestaurantCardSingle";
-import { RestaurantCardSinglePlaceHolder } from "../components/RestaurantCardSingle";
+} from "../../components/SwiperCarousel";
+import RestaurantCardSingle from "../../components/RestaurantCardSingle";
+import { RestaurantCardSinglePlaceHolder } from "../../components/RestaurantCardSingle";
 
 const ExplorePage = () => {
   return (
-    <>
+    <main id="explore-page">
       <Hero />
       <Types />
       <Countries />
       <Popular />
-    </>
+    </main>
   );
 };
 
@@ -28,18 +33,23 @@ const Hero = () => {
   const { sponsors, loading } = useStaticData();
   return (
     <>
-      <header className="explore-header mb-4 py-4">
-        <section className="container">
-          <h3
-            className="text-center pb-3"
+      <header className="explore-header mb-4 py-4" role="banner">
+        <section
+          className="container"
+          aria-label={t("pages.home.hero")}
+          aria-labelledby="banner-title"
+        >
+          <h2
+            id="banner-title"
+            className="text-center pb-3 display-4"
             style={{
               color: "var(--primary-color-brown",
               fontFamily: "gagalin-regular",
               lineHeight: "1",
             }}
           >
-            {t('pages.home.hero')}
-          </h3>
+            {t("pages.home.hero")}
+          </h2>
           <SwiperCarousel>
             {loading ? (
               <>
@@ -248,7 +258,7 @@ const Popular = () => {
       <section className="container mb-5">
         <h3 className="display-5 mb-3">
           <span style={{ color: "var(--primary-color" }}>★ </span>
-          {t('pages.home.top')}
+          {t("pages.home.top")}
         </h3>
 
         <div className="row g-3">

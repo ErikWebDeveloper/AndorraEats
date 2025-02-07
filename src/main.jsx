@@ -12,37 +12,37 @@ import { StaticDataProvider } from "./context/StaticDataContext";
 import AppLayout from "./layouts/pages/AppLayout";
 
 // Pages
-import LandingPage from "./pages/LandingPage";
-import ExplorePage from "./pages/ExplorePage";
-import SearchPage from "./pages/SearchPage";
-import ResultsTypePage from "./pages/ResultsTypePage";
-import RestaurantPage from "./pages/RestaurantPage";
-import ResultsCountryPage from "./pages/ResultsCountryPage";
-import FAQsPage from "./pages/FAQsPage";
-import AboutPage from "./pages/AboutPage";
-import TermsAndPolicyPage from "./pages/TermsPage";
+import LandingPage from "./pages/landing/LandingPage.jsx";
+import ExplorePage from "./pages/app/ExplorePage.jsx";
+import SearchPage from "./pages/app/SearchPage.jsx";
+import ResultsTypePage from "./pages/app/ResultsTypePage.jsx";
+import RestaurantPage from "./pages/client/RestaurantPage.jsx";
+import ResultsCountryPage from "./pages/app/ResultsCountryPage.jsx";
+import FAQsPage from "./pages/landing/FAQsPage.jsx";
+import AboutPage from "./pages/landing/AboutPage.jsx";
+import TermsAndPolicyPage from "./pages/landing/TermsPage.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <StaticDataProvider>
       <BrowserRouter>
         <Routes>
-
+          {/** Main App */}
           <Route element={<AppLayout />}>
-            <Route path="/search" element={<SearchPage />} />
             <Route path="/" element={<ExplorePage />} />
+            <Route path="/search" element={<SearchPage />} />
             <Route path="/explore/type/:type" element={<ResultsTypePage />} />
             <Route
               path="/explore/country/:country"
               element={<ResultsCountryPage />}
             />
           </Route>
-
+          {/** Restaurant View */}
           <Route
             path="/restaurant/:restaurantId"
             element={<RestaurantPage />}
           />
-
+          {/** Landing Web */}
           <Route path="/product" element={<LandingPage />} />
           <Route path="/faqs" element={<FAQsPage />} />
           <Route path="/about" element={<AboutPage />} />

@@ -1,5 +1,5 @@
-import Logo from "../components/Logo";
-import Footer from "../components/Footer";
+import Logo from "../../components/Logo";
+import Footer from "../../components/Footer";
 
 const FAQsPage = () => {
   // Variable con las preguntas y respuestas

@@ -7,6 +7,7 @@ const ResultsPageLayout = ({
   handleFiltersSelected = [],
   filters = [],
   filteredRestaurants = [],
+  path = null,
 }) => {
   return (
     <>
@@ -20,7 +21,10 @@ const ResultsPageLayout = ({
           filters={filters}
         />
         {/** Resultados */}
-        <ResultsContainer filteredRestaurants={filteredRestaurants} />
+        <ResultsContainer
+          filteredRestaurants={filteredRestaurants}
+          path={`${path}/${title}`}
+        />
       </section>
     </>
   );
@@ -89,7 +93,7 @@ const FiltersBox = ({ handleFiltersSelected, filters = [] }) => {
   );
 };
 
-const ResultsContainer = ({ filteredRestaurants = [] }) => {
+const ResultsContainer = ({ filteredRestaurants = [], path }) => {
   return (
     <div className="row g-3 mb-5">
       {filteredRestaurants.length > 0 ? (
@@ -99,7 +103,7 @@ const ResultsContainer = ({ filteredRestaurants = [] }) => {
               key={restaurant.id}
               className="col-12 col-md-6 col-lg-4 col-xl-3"
             >
-              <RestaurantCardSingle restaurant={restaurant} />
+              <RestaurantCardSingle restaurant={restaurant} location={path} />
             </div>
           ))}
         </>

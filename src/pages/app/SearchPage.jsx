@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router";
-import { useStaticData } from "../context/StaticDataContext";
+import { useStaticData } from "../../context/StaticDataContext";
+
+// Layouts
+import Section from "../../layouts/components/SectionLayout";
 
 const SearchPage = () => {
   const { index, loading } = useStaticData();
@@ -24,10 +27,10 @@ const SearchPage = () => {
   }, [searchTerm, index, loading]);
 
   return (
-    <section className="py-5">
+    <Section id="search-page" ariaLabel="Buscar por nombre de restaurantes." className="py-5">
       <SearchInput setSearchTerm={setSearchTerm} />
       <ResultsContainer results={filteredResults} />
-    </section>
+    </Section>
   );
 };
 

@@ -32,7 +32,7 @@ const MainLayout = ({ children }) => {
 
   return (
     <div className="wrapper" style={{ height: "90vh", overflow: "scroll" }}>
-      <main style={{ minHeight: "100%" }}>{children}</main>
+      <div style={{ minHeight: "100%" }}>{children}</div>
       <Footer />
     </div>
   );

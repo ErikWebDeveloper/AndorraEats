@@ -1,21 +1,18 @@
 import { useState, useEffect } from "react";
-import { useParams, useNavigate } from "react-router";
-import { useStaticData } from "../context/StaticDataContext";
-import RestaurantCardSingle from "../components/RestaurantCardSingle";
+import { useParams } from "react-router";
+import { useStaticData } from "../../context/StaticDataContext";
 
-import ResultsPageLayout from "../layouts/components/ResultPageLayout";
+// Layouts
+import ResultsPageLayout from "../../layouts/components/ResultPageLayout";
 
-const ResultsCountryPage = () => {
-  const { country } = useParams();
+const ResultsTypePage = () => {
+  const { type } = useParams();
+  const [logo, setLogo] = useState("⏳");
   const [result, setResult] = useState([]);
   const [filteredRestaurants, setFilteredRestaurants] = useState([]);
   const [filtersSelected, setFiltersSelected] = useState([]); // Filtros seleccionados
   const [loading, setLoading] = useState(true);
-  const {
-    countries,
-    loading: loadingStaticData,
-    types: filters,
-  } = useStaticData();
+  const { countries: filters, types } = useStaticData();
 
   const handleFiltersSelected = (event) => {
     // Actualizar estado de filtros
@@ -31,10 +28,10 @@ const ResultsCountryPage = () => {
     });
   };
 
-  const searchType = async (country) => {
+  const searchType = async (type) => {
     try {
       const response = await fetch(
-        `${import.meta.env.VITE_API_URL_COUNTRIES_FILTER}/${country}.json`
+        `${import.meta.env.VITE_API_URL_TYPES_FILTER}/${type}.json`
       );
       if (!response.ok) {
         throw new Error("Error al cargar el archivo JSON");
@@ -49,9 +46,16 @@ const ResultsCountryPage = () => {
   };
 
   useEffect(() => {
-    searchType(country);
+    searchType(type);
     setLoading(false);
   }, []);
+
+  // Cargar logotipo de la categoria
+  useEffect(() => {
+    if (types.length === 0) return;
+    const { image } = types.find((item) => item.name === type);
+    setLogo(image);
+  }, [types]);
 
   // Filtrar restaurantes cuando cambien los filtros seleccionados
   useEffect(() => {
@@ -59,26 +63,25 @@ const ResultsCountryPage = () => {
       // Sin filtros, mostrar todos los restaurantes
       setFilteredRestaurants(result);
     } else {
-      // Filtrar por los tipo seleccionados
+      // Filtrar por los países seleccionados
       const filtered = result.filter((restaurant) =>
-        filtersSelected.includes(restaurant.type.split(" ")[1])
+        filtersSelected.includes(restaurant.country)
       );
       setFilteredRestaurants(filtered);
     }
   }, [filtersSelected, result]);
 
-  if (loading) return <p>Cargando ...</p>;
-
   return (
     <ResultsPageLayout
-      title={country}
-      logo="🗺️"
+      title={type}
+      logo={logo}
       filters={filters}
-      handleFiltersSelected={handleFiltersSelected}
       filteredRestaurants={filteredRestaurants}
       result={result}
+      handleFiltersSelected={handleFiltersSelected}
+      path={`${import.meta.env.VITE_TYPE_URL}`}
     />
   );
 };
 
-export default ResultsCountryPage;
+export default ResultsTypePage;

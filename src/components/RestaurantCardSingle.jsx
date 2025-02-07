@@ -2,11 +2,11 @@ import { useNavigate } from "react-router";
 
 import Stars from "./Stars";
 
-const RestaurantCardSingle = ({ restaurant, cssClass = "" }) => {
+const RestaurantCardSingle = ({ restaurant, cssClass = "", location }) => {
   const navigate = useNavigate();
 
   const handleOnClick = (restaurantId) => {
-    navigate(`/restaurant/${restaurantId}`);
+    navigate(`/restaurant/${restaurantId}`, {state:{from: location}});
   };
   return (
     <>

@@ -1,18 +1,20 @@
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router";
+import { useEffect, useState } from "react";
+import { useParams, useLocation, Link } from "react-router";
 
 // Components
-import RestaurantCard from "../components/RestaurantCard";
-import Features from "../components/Features";
-import Recommended from "../components/Recommended";
-import Schedule from "../components/Schedule";
-import Footer from "../components/Footer";
+import RestaurantCard from "../../components/RestaurantCard";
+import Features from "../../components/Features";
+import Recommended from "../../components/Recommended";
+import Schedule from "../../components/Schedule";
+import Footer from "../../components/Footer";
 
 function RestaurantPage() {
+  const { state } = useLocation();
   const [restaurant, setRestaurant] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const { restaurantId } = useParams();
+
 
   useEffect(() => {
     const fetchRestaurants = async () => {
@@ -52,6 +54,7 @@ function RestaurantPage() {
   }
   return (
     <>
+      {state?.from && <BackButton returnPath={state.from}/>}
       <RestaurantCard restaurant={restaurant} />
       <Features restaurant={restaurant} />
       <Schedule restaurant={restaurant} />
@@ -60,5 +63,15 @@ function RestaurantPage() {
     </>
   );
 }
+
+const BackButton = ({returnPath}) => {
+  return (
+    <nav className="position-absolute p-3">
+      <Link role="button" className="btn btn-warning opacity-75 rounded-5" to={returnPath}>
+        ⬅️
+      </Link>
+    </nav>
+  );
+};
 
 export default RestaurantPage;

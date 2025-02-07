@@ -1,6 +1,6 @@
 import { Link } from "react-router";
-import Logo from "../components/Logo";
-import Footer from "../components/Footer";
+import Logo from "../../components/Logo";
+import Footer from "../../components/Footer";
 function LandingPage() {
   return (
     <main className="landing-page">
