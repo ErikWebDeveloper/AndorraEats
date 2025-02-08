@@ -92,11 +92,19 @@ const Card = ({ restaurant }) => {
             ⚠️ Esta información puede estar obsoleta o contener errores.
             <br />
             Ayúdanos a mejorar:{" "}
-            <a href="URL_DE_REPORTE" className="alert-link">
+            <a
+              href={`${import.meta.env.VITE_GOOGLE_FORM_ERROR}`}
+              className="alert-link"
+              target="_blank"
+            >
               reportar un error
             </a>{" "}
             o{" "}
-            <a href="URL_DE_AÑADIR_INFO" className="alert-link">
+            <a
+              href={`${import.meta.env.VITE_GOOGLE_FORM_UPDATE_DINAMIC}${restaurant.id}`}
+              className="alert-link"
+              target="_blank"
+            >
               añadir información del sitio
             </a>
             .

@@ -2,10 +2,11 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import { useStaticData } from "../../context/StaticDataContext";
 
-// Layouts
-import Section from "../../layouts/components/SectionLayout";
+// Hooks
+import { useTranslation } from "react-i18next";
 
 const SearchPage = () => {
+  const { t } = useTranslation();
   const { index, loading } = useStaticData();
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredResults, setFilteredResults] = useState([]);
@@ -28,7 +29,7 @@ const SearchPage = () => {
   return (
     <main
       id="search-page"
-      aria-label="Buscar por nombre de restaurantes."
+      aria-label={t("pages.search.mainAria")}
       className="py-5"
     >
       <SearchInput setSearchTerm={setSearchTerm} />
@@ -39,6 +40,7 @@ const SearchPage = () => {
 
 const SearchInput = ({ setSearchTerm }) => {
   const [inputValue, setInputValue] = useState("");
+  const { t } = useTranslation();
 
   const handleInputChange = (e) => {
     const value = e.target.value;
@@ -54,11 +56,16 @@ const SearchInput = ({ setSearchTerm }) => {
           className="form-control"
           value={inputValue}
           onChange={handleInputChange}
-          placeholder="Buscar restaurante ..."
-          aria-label="Buscar restaurante ..."
-          aria-describedby="button-addon2"
+          placeholder={t("pages.search.inputPlaceholder")}
+          aria-label={t("pages.search.inputAria")}
+          aria-describedby="serach-input"
         />
-        <button className="btn btn-warning" type="button" id="button-addon2">
+        <button
+          className="btn btn-warning"
+          type="button"
+          id="serach-input"
+          title={t("pages.search.inputAria")}
+        >
           🔎
         </button>
       </div>
@@ -67,10 +74,11 @@ const SearchInput = ({ setSearchTerm }) => {
 };
 
 const ResultsContainer = ({ results }) => {
+  const { t } = useTranslation();
   return (
     <div className="container">
       {results.length > 1 && (
-        <p>Se han encontrado {results.length} resultados ...</p>
+        <p>{t("pages.search.resultsFound", { count: results.length })}</p>
       )}
       <div className="row g-3">
         {results.length > 0 ? (
@@ -81,7 +89,7 @@ const ResultsContainer = ({ results }) => {
             </div>
           ))
         ) : (
-          <p className="text-muted">No se encontraron resultados ...</p>
+          <p className="text-muted">{t("pages.search.resultsNoFound")}</p>
         )}
       </div>
     </div>

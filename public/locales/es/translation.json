@@ -5,6 +5,13 @@
       "eat": "¿Qué te apetece comer hoy?",
       "location": "Encuentra el lugar perfecto",
       "top": "Los mejor valorados"
+    },
+    "search": {
+      "mainAria": "Buscar por nombre de restaurantes.",
+      "inputPlaceholder": "Buscar restaurante ...",
+      "inputAria": "Buscar restaurante",
+      "resultsNoFound": "No se encontraron resultados ...",
+      "resultsFound": "Se han encontrado {{count}} resultados..."
     }
   },
   "components": {
