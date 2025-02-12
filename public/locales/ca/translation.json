@@ -3,11 +3,14 @@
     "home": {
       "hero": "Descobreix els nostres favorits!",
       "eat": "Què et ve de gust menjar avui?",
+      "flavours": "Descobreix sabors del món",
+      "drinks": "Brinda, relaxa't i gaudeix",
+      "bakery": "Un dolç caprici mai ve malament",
       "location": "Troba el lloc perfecte",
-      "top": "Els més ben valorats"
+      "top": "Els més valorats"
     },
     "search": {
-      "mainAria": "Cerca per nom de restaurant.",
+      "mainAria": "Cerca per nom de restaurants.",
       "inputPlaceholder": "Cerca restaurant ...",
       "inputAria": "Cerca restaurant",
       "resultsNoFound": "No s'han trobat resultats ...",
@@ -23,7 +26,7 @@
       "form": "Afegir un restaurant",
       "contact": "Contacte",
       "email": "Correu electrònic",
-      "slogan": "Dissenyat per ajudar-te a descobrir tots els restaurants d'Andorra."
+      "slogan": "Dissenyat per ajudar-te a descobrir tots els restaurants a Andorra."
     }
   }
 }

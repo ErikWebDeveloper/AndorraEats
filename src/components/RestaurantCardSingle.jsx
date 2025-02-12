@@ -49,7 +49,10 @@ const RestaurantCardSingle = ({ restaurant, cssClass = "", location }) => {
             className="badge text-bg-warning d-flex align-items-center justify-content-center"
             style={{ minWidth: "60px" }}
           >
-            📍 {restaurant.country}
+            📍{" "}
+            {restaurant.country === restaurant?.sub_country
+              ? restaurant.country
+              : restaurant?.sub_country}
           </span>
         </div>
       </article>

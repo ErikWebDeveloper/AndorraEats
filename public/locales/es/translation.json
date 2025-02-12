@@ -3,6 +3,9 @@
     "home": {
       "hero": "¡Descubre nuestros favoritos!",
       "eat": "¿Qué te apetece comer hoy?",
+      "flavours": "Descubre sabores del mundo",
+      "drinks": "Brinda, relájate y disfruta",
+      "bakery": "Un dulce capricho nunca viene mal",
       "location": "Encuentra el lugar perfecto",
       "top": "Los mejor valorados"
     },

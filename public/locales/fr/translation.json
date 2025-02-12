@@ -1,8 +1,11 @@
 {
   "pages": {
     "home": {
-      "hero": "Découvrez nos favoris !",
-      "eat": "Qu'avez-vous envie de manger aujourd'hui ?",
+      "hero": "Découvrez nos favoris!",
+      "eat": "Que voulez-vous manger aujourd'hui?",
+      "flavours": "Découvrez les saveurs du monde",
+      "drinks": "Lève ton verre, détends-toi et profite",
+      "bakery": "Un petit péché sucré ne fait jamais de mal",
       "location": "Trouvez l'endroit parfait",
       "top": "Les mieux notés"
     },
@@ -19,11 +22,11 @@
       "links": "Liens",
       "faqs": "Questions fréquentes",
       "about": "À propos d'Andorra Eats",
-      "terms": "Politique et Conditions",
+      "terms": "Politique et conditions",
       "form": "Ajouter un restaurant",
       "contact": "Contact",
-      "email": "Courrier électronique",
-      "slogan": "Conçu pour vous aider à découvrir tous les restaurants d'Andorre."
+      "email": "E-mail",
+      "slogan": "Conçu pour vous aider à découvrir tous les restaurants en Andorre."
     }
   }
 }

@@ -1,0 +1,40 @@
+{
+  "product": [
+    { "image": "🍕", "name": "Pizza" },
+    { "image": "🍔", "name": "Burger" },
+    { "image": "🍣", "name": "Japonés" },
+    { "image": "🍝", "name": "Italiano" },
+    { "image": "🥗", "name": "Vegetariano" },
+    { "image": "🍛", "name": "Indio" },
+    { "image": "🍤", "name": "Mariscos" },
+    { "image": "🥙", "name": "Kebab" },
+    { "image": "🍖", "name": "Parrilla" },
+    { "image": "🥩", "name": "Carnes" }
+  ],
+  "flavours": [
+    { "image": "🍚", "name": "Arrocería" },
+    { "image": "🗽", "name": "New Yorkino" },
+    { "image": "🍽️", "name": "De Autor" },
+    { "image": "🌮", "name": "Mexicano" },
+    { "image": "🌿", "name": "Mediterráneo" },
+    { "image": "🍲", "name": "Asiático" },
+    { "image": "🍜", "name": "Chino" },
+    { "image": "🍽️", "name": "Francés" },
+    { "image": "🍖", "name": "Argentino" },
+    { "image": "🍪", "name": "Americano" },
+    { "image": "🌎", "name": "Internacional" },
+    { "image": "🌍", "name": "Europeo" }
+  ],
+  "drinks": [
+    { "image": "🍷", "name": "Vinacoteca" },
+    { "image": "🍸", "name": "Bar" },
+    { "image": "🥃", "name": "Pub" },
+    { "image": "🍺", "name": "Cervecería" },
+    { "image": "☕", "name": "Café" }
+  ],
+  "bakery": [
+    { "image": "🍳", "name": "Desayunos" },
+    { "image": "🍩", "name": "Pastelería" },
+    { "image": "🍦", "name": "Heladería" }
+  ]
+}

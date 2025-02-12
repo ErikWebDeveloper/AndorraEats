@@ -7,6 +7,7 @@ export const StaticDataProvider = ({ children }) => {
   const [populars, setPopulars] = useState([]);
   const [sponsors, setSponsors] = useState([]);
   const [types, setTypes] = useState([]);
+  const [subTypes, setSubTypes] = useState([]);
   const [countries, setCountries] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -66,6 +67,19 @@ export const StaticDataProvider = ({ children }) => {
     }
   };
 
+  const fetchSubTypes = async () => {
+    try {
+      const response = await fetch(`${import.meta.env.VITE_API_URL_SUBTYPES}`);
+      if (!response.ok) {
+        throw new Error("Error al cargar el archivo JSON");
+      }
+      const data = await response.json();
+      setSubTypes(data);
+    } catch (error) {
+      console.error("Error al obtener los datos:", error);
+    }
+  };
+
   const fetchCounties = async () => {
     try {
       const response = await fetch(`${import.meta.env.VITE_API_URL_COUNTRIES}`);
@@ -85,12 +99,15 @@ export const StaticDataProvider = ({ children }) => {
     fetchSponsors();
     fetchPopulars();
     fetchTypes();
+    fetchSubTypes();
     fetchCounties();
     setLoading(false);
   }, []);
 
   return (
-    <StaticData.Provider value={{ types, loading, countries, index, sponsors, populars }}>
+    <StaticData.Provider
+      value={{ types, subTypes, loading, countries, index, sponsors, populars }}
+    >
       {children}
     </StaticData.Provider>
   );

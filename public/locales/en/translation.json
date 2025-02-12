@@ -2,14 +2,17 @@
   "pages": {
     "home": {
       "hero": "Discover our favorites!",
-      "eat": "What do you feel like eating today?",
+      "eat": "What would you like to eat today?",
+      "flavours": "Discover flavors from around the world",
+      "drinks": "Cheers, relax, and enjoy",
+      "bakery": "A sweet treat never hurts",
       "location": "Find the perfect place",
-      "top": "Top-rated"
+      "top": "The highest rated"
     },
     "search": {
       "mainAria": "Search by restaurant name.",
       "inputPlaceholder": "Search for a restaurant ...",
-      "inputAria": "Search restaurant",
+      "inputAria": "Search for a restaurant",
       "resultsNoFound": "No results found ...",
       "resultsFound": "{{count}} results found..."
     }
@@ -19,7 +22,7 @@
       "links": "Links",
       "faqs": "Frequently Asked Questions",
       "about": "About Andorra Eats",
-      "terms": "Policy and Terms",
+      "terms": "Policy and Conditions",
       "form": "Add a restaurant",
       "contact": "Contact",
       "email": "Email",

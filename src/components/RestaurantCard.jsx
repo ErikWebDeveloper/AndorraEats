@@ -48,7 +48,10 @@ const Card = ({ restaurant }) => {
           </span>
 
           <span className="badge text-bg-warning d-flex align-items-center justify-content-center">
-            📍 {restaurant.country}
+            📍{" "}
+            {restaurant.country === restaurant?.sub_country
+              ? restaurant.country
+              : restaurant?.sub_country}
           </span>
         </div>
         {/** Descripcón */}
@@ -101,7 +104,9 @@ const Card = ({ restaurant }) => {
             </a>{" "}
             o{" "}
             <a
-              href={`${import.meta.env.VITE_GOOGLE_FORM_UPDATE_DINAMIC}${restaurant.id}`}
+              href={`${import.meta.env.VITE_GOOGLE_FORM_UPDATE_DINAMIC}${
+                restaurant.id
+              }`}
               className="alert-link"
               target="_blank"
             >
