@@ -23,7 +23,7 @@ import FAQsPage from "./pages/landing/FAQsPage.jsx";
 import AboutPage from "./pages/landing/AboutPage.jsx";
 import TermsAndPolicyPage from "./pages/landing/TermsPage.jsx";
 import NewRestaurantPage from "./pages/landing/NewRestaurant.jsx";
-import RestaurantBoardPage from "./pages/dashboard/RestaurantPage.jsx";
+//import RestaurantBoardPage from "./pages/dashboard/RestaurantPage.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -45,12 +45,13 @@ createRoot(document.getElementById("root")).render(
             path="/restaurant/:restaurantId"
             element={<RestaurantPage />}
           />
-          {/** DashBoard */}
+          {/** DashBoard 
           <Route path={"/new-restaurant"} element={<RestaurantBoardPage />} />
+          */}
           {/** Landing Web */}
           <Route element={<LandingLayout />}>
             <Route path="/product" element={<LandingPage />} />
-            <Route path="/new" element={<NewRestaurantPage />} />
+            <Route path="/restaurant-form" element={<NewRestaurantPage />} />
             <Route path="/faqs" element={<FAQsPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/terms" element={<TermsAndPolicyPage />} />

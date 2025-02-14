@@ -27,13 +27,12 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://forms.gle/xqEvBxPnVzc81q2F6"
-                  target="_blank"
+                <Link
+                  to="/restaurant-form"
                   className="link text-decoration-none"
                 >
                   {t("components.footer.form")}
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
