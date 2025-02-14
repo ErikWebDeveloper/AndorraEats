@@ -78,7 +78,7 @@ Sigue estos pasos para configurar el proyecto en tu máquina local:
 
 ## Archivos importantes 🗂️
 
-- **public/api**: Contiene los archivos JSON con la información de los restaurantes, países, tipos de comida y otros datos estáticos 📊.
+- **public/static_api**: Contiene los archivos JSON con la información de los restaurantes, países, tipos de comida y otros datos estáticos 📊.
 - **public/assets**: Contiene imágenes de productos, banners y más recursos estáticos 🖼️.
 - **src/components**: Los componentes principales como el carrusel, los restaurantes recomendados y más 🧩.
 - **src/pages**: Las páginas que conforman la aplicación, como la página de inicio, resultados de búsqueda y detalles de un restaurante 📄.

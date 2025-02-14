@@ -1,0 +1,11 @@
+# Habilitar mod_rewrite
+RewriteEngine On
+
+# Asegurarse de que no sea un archivo o directorio existente
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirigir todas las demás solicitudes a index.html
+RewriteRule ^ index.html [L]
+
+ErrorDocument 404 /index.html
