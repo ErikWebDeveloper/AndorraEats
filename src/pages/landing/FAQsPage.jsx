@@ -28,10 +28,7 @@ const FAQsPage = () => {
 
   return (
     <section className="faqs-page">
-      <div className="container py-5" style={{minHeight: "100vh"}}>
-        <div className="text-center">
-          <Logo emoji="🥗" />
-        </div>
+      <div className="container py-5" style={{ minHeight: "100vh" }}>
         <h1 className="text-center mb-4">Preguntas Frecuentes</h1>
         <p className="text-center text-muted">
           Aprende más sobre cómo funciona Andorra Eats y cómo puedes
@@ -68,7 +65,6 @@ const FAQsPage = () => {
           ))}
         </div>
       </div>
-      <Footer/>
     </section>
   );
 };

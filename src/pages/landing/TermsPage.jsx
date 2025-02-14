@@ -4,9 +4,6 @@ const TermsAndPolicyPage = () => {
   return (
     <section className="bg-primary-custom">
       <div className="container py-5">
-        <div className="text-center">
-          <Logo emoji="🥗" />
-        </div>
         <h1 className="text-center mb-4">
           Política de Privacidad y Condiciones de Uso
         </h1>
@@ -184,7 +181,6 @@ const TermsAndPolicyPage = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </section>
   );
 };

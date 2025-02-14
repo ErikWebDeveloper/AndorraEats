@@ -54,7 +54,7 @@ export default GoogleAuth;
 import { GoogleOAuthProvider } from "@react-oauth/google";
  * 
  * 
- *         <GoogleOAuthProvider clientId="28343308898-f32c4fdf5hp38vul0d23017103ee009i.apps.googleusercontent.com">
+ *         <GoogleOAuthProvider clientId=`${import.meta.env.VITE_GOOGLE_CLIENT_ID}`>
           <h1>Autenticación con Google</h1>
           <GoogleAuth />
         </GoogleOAuthProvider>

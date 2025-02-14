@@ -4,9 +4,6 @@ import Footer from "../../components/Footer";
 const AboutPage = () => {
   return (
     <section className="pt-5 bg-primary-custom">
-      <div className="text-center">
-        <Logo emoji="🥗" />
-      </div>
       <div className="container my-5">
         <h1 className="text-center mb-4">Sobre Andorra Eats</h1>
         <p className="text-center text-muted mb-5">
@@ -70,7 +67,6 @@ const AboutPage = () => {
           </a>
         </div>
       </div>
-      <Footer />
     </section>
   );
 };

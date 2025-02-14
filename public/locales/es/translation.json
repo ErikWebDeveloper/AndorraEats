@@ -15,6 +15,20 @@
       "inputAria": "Buscar restaurante",
       "resultsNoFound": "No se encontraron resultados ...",
       "resultsFound": "Se han encontrado {{count}} resultados..."
+    },
+    "dashboard": {
+      "restaurant": {
+        "restaurant_form_title": "Crear Restaurante",
+        "restaurant_name": "Nombre del Restaurante",
+        "name_help": "Ingrese el nombre del restaurante.",
+        "description": "Descripción",
+        "description_help": "Describa el restaurante y sus especialidades.",
+        "image": "URL de la Imagen",
+        "image_help": "Proporcione una URL válida para la imagen del restaurante.",
+        "submit": "Enviar",
+        "is_in_app": "¿Ya apareces en la app?",
+        "is_in_app_help": "Marca esta casilla si tu restaurante ya está listado en la app."
+      }
     }
   },
   "components": {

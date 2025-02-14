@@ -5,15 +5,6 @@ function LandingPage() {
   return (
     <main className="landing-page">
       <div className="container">
-        {/* Header */}
-        <section className="py-5 text-center">
-          <Logo emoji="🥗" />
-          <p className="lead fw-bold">
-            Nuestra plataforma ofrece una forma rápida y fácil de encontrar
-            restaurantes en Andorra.
-          </p>
-        </section>
-
         {/* Quien somos */}
         <section className="py-5">
           <h2
@@ -137,8 +128,6 @@ function LandingPage() {
           </p>
         </section>
       </div>
-      {/* Footer */}
-      <Footer />
     </main>
   );
 }
