@@ -1,11 +1,15 @@
 # Habilitar mod_rewrite
 RewriteEngine On
 
-# Asegurarse de que no sea un archivo o directorio existente
+# Excluir la carpeta /api de la reescritura para la SPA
+RewriteCond %{REQUEST_URI} !^/api/
+
+# Asegurar que no sea un archivo o directorio existente
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
 # Redirigir todas las demás solicitudes a index.html
 RewriteRule ^ index.html [L]
 
+# Manejo de errores 404 para que la SPA los capture
 ErrorDocument 404 /index.html
